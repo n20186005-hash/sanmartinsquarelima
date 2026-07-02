@@ -127,6 +127,13 @@ function Hero() {
         <p className="hero-tagline">{t.hero.tagline}</p>
         <h1 className="hero-title">{t.hero.title}</h1>
         <p className="hero-subtitle">{t.hero.subtitle}</p>
+        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", justifyContent: "center", marginBottom: "1.5rem" }}>
+          {t.hero.tags?.map((tag: string, i: number) => (
+            <span key={i} style={{ background: "rgba(255,255,255,0.2)", padding: "0.25rem 0.75rem", borderRadius: "100px", fontSize: "0.85rem", fontWeight: 600, color: "#fff", backdropFilter: "blur(4px)", border: "1px solid rgba(255,255,255,0.3)" }}>
+              {tag}
+            </span>
+          ))}
+        </div>
         <a href="#history" className="hero-cta">
           {t.hero.cta}
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -168,13 +175,7 @@ function History() {
         <div className="section-divider" />
       </ScrollReveal>
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{renderText(t.history.intro)}</p>
-      </ScrollReveal>
-      <ScrollReveal>
-        <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.3rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
-          {renderText(t.history.originTitle)}
-        </h3>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{renderText(t.history.originContent)}</p>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{renderText(t.history.intro)}</p>
       </ScrollReveal>
       <ScrollReveal>
         <div style={{ padding: "2rem", background: "var(--color-cream)", borderRadius: "12px", border: "1px solid rgba(0,0,0,0.05)", position: "relative", overflow: "hidden" }}>
@@ -184,13 +185,13 @@ function History() {
             </svg>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1rem" }}>
-            <span style={{ fontSize: "1.5rem" }}>💡</span>
+            <span style={{ fontSize: "1.5rem" }}>🔍</span>
             <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", margin: 0 }}>
-              {t.history.legendCard.title}
+              {t.curiosities.title}
             </h3>
           </div>
-          <p style={{ fontSize: "1rem", color: "var(--color-earth-soft)", lineHeight: "1.6", margin: 0, position: "relative", zIndex: 1 }}>
-            {renderText(t.history.legendCard.content)}
+          <p style={{ fontSize: "1rem", color: "var(--color-earth-soft)", lineHeight: "1.6", margin: 0, position: "relative", zIndex: 1, whiteSpace: "pre-line" }}>
+            {renderText(t.curiosities.content)}
           </p>
         </div>
       </ScrollReveal>
@@ -279,6 +280,38 @@ function Monuments() {
   );
 }
 
+function TimeSpaceContrast() {
+  const { t } = useLang();
+  return (
+    <section className="section" style={{ background: "var(--color-cream)" }}>
+      <ScrollReveal>
+        <p className="section-label">04</p>
+        <h2 className="section-title">{t.contrast.title}</h2>
+        <div className="section-divider" />
+      </ScrollReveal>
+      <ScrollReveal>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "3rem" }}>{renderText(t.contrast.intro)}</p>
+      </ScrollReveal>
+      <ScrollReveal>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
+          <div>
+            <div style={{ borderRadius: "8px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.1)", marginBottom: "1rem" }}>
+              <img src="/gallery/plaza-san-martin (2).jpg" alt="Plaza San Martín in 1920s" style={{ width: "100%", height: "auto", display: "block", filter: "grayscale(100%) sepia(20%)" }} />
+            </div>
+            <p style={{ textAlign: "center", fontSize: "0.95rem", color: "var(--color-earth-soft)", fontWeight: 600 }}>{t.contrast.before}</p>
+          </div>
+          <div>
+            <div style={{ borderRadius: "8px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.1)", marginBottom: "1rem" }}>
+              <img src="/gallery/plaza-san-martin (1).jpg" alt="Plaza San Martín Today" style={{ width: "100%", height: "auto", display: "block" }} />
+            </div>
+            <p style={{ textAlign: "center", fontSize: "0.95rem", color: "var(--color-earth-soft)", fontWeight: 600 }}>{t.contrast.after}</p>
+          </div>
+        </div>
+      </ScrollReveal>
+    </section>
+  );
+}
+
 function Visiting() {
   const { t } = useLang();
   const cards = [
@@ -291,7 +324,7 @@ function Visiting() {
     <section id="visiting" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #eee8dd 100%)" }}>
       <div className="section">
         <ScrollReveal>
-          <p className="section-label">04</p>
+          <p className="section-label">05</p>
           <h2 className="section-title">{t.visiting.title}</h2>
           <div className="section-divider" />
         </ScrollReveal>
@@ -360,7 +393,7 @@ function Transportation() {
   return (
     <section id="transportation" className="section">
       <ScrollReveal>
-        <p className="section-label">05</p>
+        <p className="section-label">06</p>
         <h2 className="section-title">{t.transportation.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
@@ -468,7 +501,7 @@ function Gallery() {
   return (
     <section id="gallery" className="section">
       <ScrollReveal>
-        <p className="section-label">06</p>
+        <p className="section-label">07</p>
         <h2 className="section-title">{t.gallery.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
@@ -526,7 +559,7 @@ function Reviews() {
   return (
     <section id="reviews" className="section" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #e8e2d6 100%)" }}>
       <ScrollReveal>
-        <p className="section-label">07</p>
+        <p className="section-label">08</p>
         <h2 className="section-title">{t.reviews.title}</h2>
         <p className="section-subtitle">{t.reviews.subtitle}</p>
         <div className="section-divider" />
@@ -600,7 +633,7 @@ function FAQ() {
     <section id="faq" className="section">
       <div className="section">
         <ScrollReveal>
-        <p className="section-label">08</p>
+        <p className="section-label">09</p>
         <h2 className="section-title">{t.faq.title}</h2>
           <p className="section-subtitle">{t.faq.subtitle}</p>
           <div className="section-divider" />
@@ -647,7 +680,7 @@ function Location() {
   return (
     <section id="location" className="section">
       <ScrollReveal>
-        <p className="section-label">09</p>
+        <p className="section-label">10</p>
         <h2 className="section-title">{t.location.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
@@ -723,6 +756,7 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
       <History />
       <Architecture />
       <Monuments />
+      <TimeSpaceContrast />
       <Visiting />
       <Transportation />
       <Gallery />

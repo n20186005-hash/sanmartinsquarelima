@@ -11,23 +11,37 @@ export function StructuredData() {
   const touristAttractionSchema = {
     "@context": "https://schema.org",
     "@type": "TouristAttraction",
-    "name": locale === "es" ? "Faro de la Marina" : locale === "zh" ? "海军灯塔" : locale === "qu" ? "Faro de la Marina" : "Navy Lighthouse",
+    "name": locale === "es" ? "Plaza San Martín" : locale === "zh" ? "圣马丁广场" : locale === "qu" ? "Plaza San Martín" : "Plaza San Martín",
     "description": t.history.intro,
     "url": `${baseUrl}/${locale}`,
-    "image": `${baseUrl}/gallery/navy-lighthouse (1).jpg`,
+    "image": `${baseUrl}/gallery/plaza-san-martin (1).jpg`,
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.7",
-      "reviewCount": "6599"
+      "ratingValue": "4.3",
+      "reviewCount": "51442"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -12.126438853306795,
-      "longitude": -77.02970492373255
+      "latitude": -12.0515,
+      "longitude": -77.0346
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
     },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Miraflores",
+      "addressLocality": "Lima",
       "addressRegion": "Lima",
       "addressCountry": "PE"
     }
