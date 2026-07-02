@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     return config;
   },
   env: {
-    CURRENT_SITE_DOMAIN: process.env.CURRENT_SITE_DOMAIN || "sacsayhuamanruins.com",
+    CURRENT_SITE_DOMAIN: process.env.CURRENT_SITE_DOMAIN || "sanmartinsquarelima.com",
   },
 };
 
