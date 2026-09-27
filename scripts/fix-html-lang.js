@@ -61,5 +61,19 @@ function fixHtmlLang(filePath) {
 }
 
 console.log('Fixing HTML lang attributes...');
-walkDir(outDir, fixHtmlLang);
-console.log('Done!');
+
+// 静态导出（output: 'export'）产物在 out/，独立部署（output: 'standalone'）
+// 的预渲染 HTML 在 .next/server/app/ 下，两者都做一次 lang 修正。
+const dirs = [
+  outDir,
+  path.resolve(__dirname, '..', '.next', 'server', 'app'),
+].filter((dir) => fs.existsSync(dir));
+
+if (dirs.length === 0) {
+  console.log('No prerendered HTML directory found, skipping.');
+} else {
+  for (const dir of dirs) {
+    walkDir(dir, fixHtmlLang);
+  }
+  console.log('Done!');
+}
