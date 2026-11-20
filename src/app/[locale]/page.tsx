@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
+import { nearbyLabels, nearbyPath, nearbyPlaces } from "@/i18n/nearby";
 import { walks, walkPath } from "@/i18n/walk";
 import { LangProvider, useLang } from "@/components/LangProvider";
 import { useTheme } from "next-themes";
@@ -107,6 +108,7 @@ function Nav() {
           <a href="#transportation">{t.nav.transportation}</a>
           <a href="#gallery">{t.nav.gallery}</a>
           <a href="#reviews">{t.nav.reviews}</a>
+          <a href="#nearby">{nearbyLabels[locale].nearby}</a>
           <a href="#faq">{t.nav.faq}</a>
           <a href="#location">{t.nav.location}</a>
           <Link href={`/${locale}${walkPath}`}>{walks[locale].route}</Link>
@@ -556,7 +558,7 @@ function Gallery() {
 }
 
 function Reviews() {
-  const { t } = useLang();
+  const { t, locale } = useLang();
 
   return (
     <section id="reviews" className="section" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #e8e2d6 100%)" }}>
@@ -602,7 +604,7 @@ function Reviews() {
             {t.reviews.nearbyItems.map((item: { name: string; description: string }, i: number) => (
               <div key={i} style={{ padding: "1.5rem", background: "rgba(0,0,0,0.02)", borderRadius: "8px" }}>
                 <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.5rem" }}>
-                  📍 {item.name}
+                  📍 <Link href={`/${locale}${nearbyPath(featuredNearby[i])}`}>{item.name}</Link>
                 </h4>
                 <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>{renderText(item.description)}</p>
               </div>
@@ -715,6 +717,24 @@ function Location() {
   );
 }
 
+const featuredNearby = ["plaza-mayor", "san-francisco", "catedral"];
+
+function Nearby() {
+  const { locale } = useLang();
+  return (
+    <section className="section nearby-index" id="nearby">
+      <h2 className="section-title">{nearbyLabels[locale].nearby}</h2>
+      <ul className="nearby-grid">
+        {nearbyPlaces.map((place) => (
+          <li key={place.slug}><Link className="info-card" href={`/${locale}${nearbyPath(place.slug)}`}>
+            {place.titles[locale]}
+          </Link></li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 function Footer() {
   const { t, locale } = useLang();
   return (
@@ -764,6 +784,7 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
       <Transportation />
       <Gallery />
       <Reviews />
+      <Nearby />
       <FAQ />
       <Location />
       <Footer />

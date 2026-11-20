@@ -1,0 +1,1442 @@
+[
+  {
+    "slug": "plaza-mayor",
+    "name": "Plaza Mayor, Lima",
+    "address": "Plaza Mayor, Cercado de Lima",
+    "access": "public",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/plaza-mayor.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fuente%2C_Plaza_de_Armas%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_28.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Plaza Mayor, Lima",
+      "en": "Plaza Mayor",
+      "zh": "利马武器广场",
+      "qu": "Plaza Mayor, Lima"
+    },
+    "description": {
+      "es": "La fuente de bronce del siglo XVII permanece en el centro del trazado fundacional.",
+      "en": "The seventeenth-century bronze fountain still anchors Lima’s founding square.",
+      "zh": "十七世纪的青铜喷泉仍位于建城广场中心。",
+      "qu": "Lima llaqtapa qallariyninmanta kay hatun plaza kachkan. XVII pachak watapi rurasqa pukyunta qaway."
+    },
+    "detail": {
+      "es": "Compara los balcones del Palacio Municipal con las torres de la catedral desde la fuente.",
+      "en": "From the fountain compare City Hall’s balconies with the cathedral towers.",
+      "zh": "从喷泉旁对照市政宫木阳台与主教座堂双塔。",
+      "qu": "Pukyu chawpimanta hatun much’ay wasi turrekunata qaway."
+    },
+    "next": "jiron-union",
+    "photo": {
+      "es": "Desde el borde junto a Carabaya, encuadra la fuente con las torres de la catedral.",
+      "en": "From the Carabaya side, frame the fountain with the cathedral towers.",
+      "zh": "从卡拉巴亚街一侧把喷泉和主教座堂双塔收进同一画面。",
+      "qu": "Carabaya ladumanta pukyuta turrikunatawan siqiy."
+    },
+    "kind": "square",
+    "visitTip": {
+      "es": "Antes de cruzar, recorre el perímetro porticado: la plaza reúne en un solo espacio el gobierno nacional, el municipal y la sede episcopal.",
+      "en": "Walk the arcaded perimeter before crossing. The square brings the national government, City Hall and the episcopal seat together in one space.",
+      "zh": "先沿有拱廊的广场外围走一圈，再走向喷泉。这里把国家政府、市政府和主教座堂集中在同一个广场。",
+      "qu": "Mana chayraq chakruchkaspa, plazapa muyuriq arkuninkunata puriy. Piruwpa kamachiqnin, Lima kamachiqnin, obispopa wasin kaypin."
+    }
+  },
+  {
+    "slug": "catedral",
+    "name": "Catedral de Lima",
+    "address": "Jirón Carabaya, cuadra 2, Plaza Mayor",
+    "access": "venue",
+    "manager": "cathedral",
+    "image": {
+      "src": "/nearby/catedral.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Historic_Center_of_Lima_-_54548281854.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    },
+    "titles": {
+      "es": "Catedral de Lima",
+      "en": "Lima Cathedral",
+      "zh": "利马主教座堂",
+      "qu": "Catedral de Lima"
+    },
+    "description": {
+      "es": "La catedral ha cambiado tras sucesivos terremotos.",
+      "en": "Earthquakes reshaped the cathedral over time.",
+      "zh": "历次地震改变了主教座堂的形貌。",
+      "qu": "Kuyuykunawan kay hatun much’ay wasi kutin kutin rurasqa karqan. Ukhunpi Francisco Pizarrupa p’ampanan kachkan."
+    },
+    "detail": {
+      "es": "La portada y las torres enmarcan una nave donde se visitan capillas y el espacio funerario de Francisco Pizarro.",
+      "en": "Its portal and towers frame a nave with chapels and the burial site of Francisco Pizarro.",
+      "zh": "立面门廊与塔楼内侧是中殿、小礼拜堂及弗朗西斯科·皮萨罗墓。",
+      "qu": "Hatun much’ay wasipa punkunta, iskay turrenkunata qaway."
+    },
+    "next": "palacio-arzobispal",
+    "photo": {
+      "es": "Desde la plaza, alinea el pórtico de la catedral y los balcones del arzobispado.",
+      "en": "From the square, frame the cathedral portal beside the archbishop’s balconies.",
+      "zh": "从广场把座堂门廊与总主教宫阳台并置取景。",
+      "qu": "Plazamanta punkuta balkonkunatawan siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Dentro, empieza por la nave central y deja tiempo para el museo de arte religioso. Si hay un oficio, espera a que termine antes de recorrer las capillas.",
+      "en": "Inside, start in the central nave and allow time for the religious art museum. During worship, wait before touring the chapels.",
+      "zh": "入内先沿中央中殿参观，再给宗教艺术博物馆留时间。若正在举行礼拜，等仪式结束再参观侧礼拜堂。",
+      "qu": "Ukhuman yaykuspa chawpimanta qallariy, much’ay ruraykunapa museonta qaway. Misa kaptinqa suyay."
+    }
+  },
+  {
+    "slug": "palacio-gobierno",
+    "name": "Palacio de Gobierno del Perú",
+    "address": "Jirón de la Unión, cuadra 2, Plaza Mayor",
+    "access": "exterior",
+    "manager": "presidency",
+    "image": {
+      "src": "/nearby/palacio-gobierno.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno_del_Per%C3%BA_2023.jpg",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0"
+    },
+    "titles": {
+      "es": "Palacio de Gobierno del Perú",
+      "en": "Government Palace",
+      "zh": "秘鲁政府宫",
+      "qu": "Palacio de Gobierno del Perú"
+    },
+    "description": {
+      "es": "El edificio actual domina el lado norte de la Plaza Mayor y alberga la presidencia.",
+      "en": "The present palace houses Peru’s presidency on the north side of Plaza Mayor.",
+      "zh": "现政府宫位于武器广场北侧，是秘鲁总统府。",
+      "qu": "Kay wasipin Piruwpa umalliqnin llamk’an. Hatun plazapa wichay lawpin kachkan."
+    },
+    "detail": {
+      "es": "Las rejas dejan ver el patio de honor desde el espacio público.",
+      "en": "The gates give street-level views into the ceremonial courtyard.",
+      "zh": "从公共空间可透过铁栏观察礼仪庭院。",
+      "qu": "Hatun plazapa wichayninmanta kamachiqpa wasinta qaway."
+    },
+    "next": "casa-aliaga",
+    "photo": {
+      "es": "Encuadra la portada desde la acera de enfrente, sin bloquear el acceso.",
+      "en": "Frame the doorway from the opposite sidewalk, keeping the entrance clear.",
+      "zh": "在对面人行道拍摄门廊，给入口留出通道。",
+      "qu": "Ñan chimpamanta punkuta siqiy."
+    },
+    "kind": "civic",
+    "visitTip": {
+      "es": "Planifica la visita desde la acera de la plaza. Las rejas marcan el límite público y el acto de guardia puede afectar el acceso al frente del palacio.",
+      "en": "Plan to see the building from the square sidewalk. The gates mark the public boundary and a guard ceremony may affect access along the frontage.",
+      "zh": "建议从广场人行道看建筑。铁栏是访客活动范围的边界，卫兵仪式可能临时改变宫前通行安排。",
+      "qu": "Plaza ñanmanta kamachiqpa wasinta qaway. Punku hark’ana ukhuman ama yaykuychu. Waqaychaqkunapa ruraynin kaptin ñan hukmanyanman."
+    }
+  },
+  {
+    "slug": "palacio-municipal",
+    "name": "Palacio Municipal de Lima",
+    "address": "Jirón de la Unión 300",
+    "access": "exterior",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/palacio-municipal.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lima_City_Hall.jpg",
+      "author": "WMrapids",
+      "license": "CC0"
+    },
+    "titles": {
+      "es": "Palacio Municipal de Lima",
+      "en": "Lima City Hall",
+      "zh": "利马市政宫",
+      "qu": "Palacio Municipal de Lima"
+    },
+    "description": {
+      "es": "La sede municipal del siglo XX reinterpreta la arquitectura colonial.",
+      "en": "The twentieth-century City Hall reinterprets colonial architecture.",
+      "zh": "二十世纪的市政宫重新演绎殖民时期建筑。",
+      "qu": "XX pachak watapi llaqta kamachiypa wasinta ñawpa wasikunaman rikch’akuqta rurarqanku."
+    },
+    "detail": {
+      "es": "Los balcones de cajón y la galería porticada se aprecian mejor desde la plaza.",
+      "en": "Look across the square for boxed balconies and the arcaded ground floor.",
+      "zh": "从广场对面可看到箱式木阳台和底层拱廊。",
+      "qu": "Plazamanta qiru balkonkunata, arku ñankunata qaway."
+    },
+    "next": "plaza-mayor",
+    "photo": {
+      "es": "Desde la fuente, encuadra la arquería inferior con los balcones de madera encima.",
+      "en": "From the fountain, frame the ground-floor arches with the wooden balconies above.",
+      "zh": "从喷泉一带拍摄底层拱廊和上方木阳台。",
+      "qu": "Pukyumanta hanaq qiru balkonkunata siqiy."
+    },
+    "kind": "civic",
+    "visitTip": {
+      "es": "Desde el borde de la plaza, mira primero la galería a nivel de calle y luego los balcones. El contraste ayuda a distinguir la función pública del edificio y su lenguaje histórico.",
+      "en": "From the square, look first at the street-level gallery and then up at the balconies. The two levels show how a working civic building borrows historic forms.",
+      "zh": "从广场边先观察街面拱廊，再抬头看上层阳台。两个楼层能帮助你理解这座办公建筑如何借用历史形式。",
+      "qu": "Plaza patamanta ñawpaqta uray arkunata qaway, chaymanta hanaq balkonkunata."
+    }
+  },
+  {
+    "slug": "palacio-arzobispal",
+    "name": "Palacio Arzobispal de Lima",
+    "address": "Jirón Carabaya 276",
+    "access": "venue",
+    "manager": "cathedral",
+    "image": {
+      "src": "/nearby/palacio-arzobispal.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_Arzobispal%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_62.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Palacio Arzobispal de Lima",
+      "en": "Archbishop’s Palace",
+      "zh": "利马总主教宫",
+      "qu": "Palacio Arzobispal de Lima"
+    },
+    "description": {
+      "es": "Inaugurada en 1924, la sede arzobispal es un ejemplo del neocolonial limeño.",
+      "en": "Opened in 1924, the archbishop’s residence exemplifies Lima’s neo-colonial style.",
+      "zh": "总主教宫于1924年落成，是利马新殖民风格的代表。",
+      "qu": "1924 watapi arzobispopa wasin kichakurqan. Qirumanta wisq’asqa balkonkunayuqmi."
+    },
+    "detail": {
+      "es": "Sus balcones cerrados sobresalen junto a la fachada de la catedral.",
+      "en": "Its enclosed balconies project beside the cathedral facade.",
+      "zh": "封闭式木阳台紧邻主教座堂立面。",
+      "qu": "Hatun much’ay wasi qayllapi wisq’asqa balkonkunata qaway."
+    },
+    "next": "catedral",
+    "photo": {
+      "es": "Desde Carabaya, toma una vista oblicua que separe los balcones de las torres de la catedral.",
+      "en": "Take an angled view from Carabaya to distinguish the balconies from the cathedral towers.",
+      "zh": "从卡拉巴亚街斜拍，将宫邸阳台与座堂双塔在画面中错开。",
+      "qu": "Carabaya ñanmanta balkonkunata siqiy."
+    },
+    "kind": "civic",
+    "visitTip": {
+      "es": "Párate en Carabaya para comparar la escala de la portada con los balcones. Si planeas entrar, verifica el acceso al museo aparte de la Catedral.",
+      "en": "Stop on Carabaya to compare the scale of the portal with the balconies. Check museum access separately from the cathedral if you plan to go inside.",
+      "zh": "在卡拉巴亚街比较门洞与木阳台的尺度。如果准备进馆，请分别查询宫内博物馆和主教座堂的入场安排。",
+      "qu": "Carabaya ñanpi punkuta balkonkunatawan tupachiy. Museo yaykunapaq sapanta tapuy."
+    }
+  },
+  {
+    "slug": "casa-aliaga",
+    "name": "Casa de Aliaga",
+    "address": "Jirón de la Unión 224",
+    "access": "venue",
+    "manager": "aliaga",
+    "image": {
+      "src": "/nearby/casa-aliaga.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_de_Aliaga%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_44.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Casa de Aliaga",
+      "en": "Casa de Aliaga",
+      "zh": "阿利亚加宅邸",
+      "qu": "Casa de Aliaga"
+    },
+    "description": {
+      "es": "Una de las primeras propiedades asignadas tras la fundación española de Lima sigue ligada a la familia Aliaga.",
+      "en": "One of the earliest properties allotted after Lima’s Spanish foundation remains associated with the Aliaga family.",
+      "zh": "这处宅邸源于利马西班牙建城后早期分配的地块，至今仍与阿利亚加家族相连。",
+      "qu": "Lima llaqta qallarisqanmanta pacha Aliaga aylluwan kay wasi tinkisqa kachkan."
+    },
+    "detail": {
+      "es": "En el interior destacan el patio, la escalera y los salones de distintas épocas.",
+      "en": "Inside, the courtyard, staircase and rooms reflect different periods.",
+      "zh": "庭院、楼梯和会客厅呈现不同年代的面貌。",
+      "qu": "Aliaga ayllupa ñawpa wasinpi kanchata, siqanata qaway."
+    },
+    "next": "palacio-gobierno",
+    "photo": {
+      "es": "Si la visita interior permite fotos, usa el patio para encuadrar los corredores y la escalera.",
+      "en": "If photos are allowed inside, use the courtyard to frame the galleries and the stairs.",
+      "zh": "若馆内允许拍摄，可从庭院拍到走廊与楼梯。",
+      "qu": "Kamachiq munaptin, kanchamanta siqanata siqiy."
+    },
+    "kind": "house",
+    "visitTip": {
+      "es": "Si consigues una visita, dedica el primer tramo al patio y la escalera. Su relación con los salones permite seguir el paso de la calle pública a la vivienda familiar.",
+      "en": "If you book a visit, spend the first part in the courtyard and by the stairs. Their relationship to the reception rooms shows the transition from street to family home.",
+      "zh": "如果预约到导览，先看庭院和楼梯，再留意它们如何接到会客厅，由此理解利马历史宅邸从临街入口到家庭空间的过渡。",
+      "qu": "Yaykunata atispa kanchata, siqanata, runa chaskina kuartukunata qaway."
+    }
+  },
+  {
+    "slug": "torre-tagle",
+    "name": "Palacio de Torre Tagle",
+    "address": "Jirón Ucayali 363",
+    "access": "exterior",
+    "manager": "foreign",
+    "image": {
+      "src": "/nearby/torre-tagle.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Torre_Tagle_Lima%2C_Peru.jpg",
+      "author": "Miguel Francisco Rueda Ñañez",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Palacio de Torre Tagle",
+      "en": "Torre Tagle Palace",
+      "zh": "托雷塔格莱宫",
+      "qu": "Palacio de Torre Tagle"
+    },
+    "description": {
+      "es": "La portada tallada y los dos balcones de madera distinguen esta casona del siglo XVIII, sede del Ministerio de Relaciones Exteriores.",
+      "en": "A carved stone portal and two wooden balconies distinguish this eighteenth-century mansion, now home to Peru’s Ministry of Foreign Affairs.",
+      "zh": "石雕门廊与两座木阳台是这幢十八世纪宅邸的标志。",
+      "qu": "XVIII pachak watapi kay wasita rurarqanku. Kunanqa Piruwpa hawa suyukunawan rimanakuq kamachiy kaypi llamk’an."
+    },
+    "detail": {
+      "es": "La portada tallada y los dos balcones de madera distinguen esta casona del siglo XVIII, sede del Ministerio de Relaciones Exteriores.",
+      "en": "A carved stone portal and two wooden balconies distinguish this eighteenth-century mansion, now home to Peru’s Ministry of Foreign Affairs.",
+      "zh": "现为秘鲁外交部办公场所。",
+      "qu": "Rumimanta punkuta, iskay qiru balkonkunata qaway."
+    },
+    "next": "casa-goyeneche",
+    "photo": {
+      "es": "La acera opuesta de Ucayali permite incluir balcones y portada en un solo marco.",
+      "en": "The opposite side of Ucayali lets you frame the balconies and portal together.",
+      "zh": "在乌卡亚利街对面将木阳台与门廊纳入同一画面。",
+      "qu": "Ucayali ñan chimpamanta balkonkunata siqiy."
+    },
+    "kind": "house",
+    "visitTip": {
+      "es": "Usa el frente de Ucayali como punto de observación y fíjate en cómo el relieve pétreo contrasta con los balcones oscuros. Es una sede ministerial en funcionamiento.",
+      "en": "Use the opposite side of Ucayali as your viewpoint. Contrast the carved masonry with the dark timber balconies on this working ministry building.",
+      "zh": "从乌卡亚利街对侧观察石雕与深色木阳台的反差。这座宅邸目前仍作部委办公使用，宜把外观作为游览重点。",
+      "qu": "Ucayali ñan chimpamanta rumi punkuta yana qiru balkonkunatawan tupachiy. Kunankama kamachiy llamk’an kaypi."
+    }
+  },
+  {
+    "slug": "casa-goyeneche",
+    "name": "Casa Goyeneche",
+    "address": "Jirón Ucayali 358",
+    "access": "exterior",
+    "manager": "bcrp",
+    "image": {
+      "src": "/nearby/casa-goyeneche.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_de_Goyeneche_de_Lima.jpg",
+      "author": "Juan José Pacheco Ibarra",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Casa Goyeneche",
+      "en": "Casa Goyeneche",
+      "zh": "戈耶内切宅邸",
+      "qu": "Casa Goyeneche"
+    },
+    "description": {
+      "es": "La antigua Casa de Rada se levanta frente a Torre Tagle.",
+      "en": "The former Casa de Rada stands opposite Torre Tagle.",
+      "zh": "原拉达宅邸位于托雷塔格莱宫对面。",
+      "qu": "Kay wasi ñawpaqtaqa Casa de Rada sutiyuq karqan. Torre Taglepa chimpapin sayachkan."
+    },
+    "detail": {
+      "es": "Compárala con su vecina para distinguir una composición de fachada más simétrica.",
+      "en": "Compare the two mansions to see the more symmetrical arrangement on this facade.",
+      "zh": "把两座建筑放在一起看，可辨出这座宅邸较对称的立面。",
+      "qu": "Torre Taglepa chimpapin kachkan. Iskay wasipa uyanta tupachiy."
+    },
+    "next": "torre-tagle",
+    "photo": {
+      "es": "Mira ambos lados de Ucayali para registrar las diferencias entre las dos casonas.",
+      "en": "Look along both sides of Ucayali to capture the differences between the two mansions.",
+      "zh": "沿乌卡亚利街两侧取景，记录相邻两座宅邸的差别。",
+      "qu": "Iskay wasipa uyanta siqipi tupachiy."
+    },
+    "kind": "house",
+    "visitTip": {
+      "es": "Haz dos paradas en la misma cuadra: primero mira la composición de esta casa y luego la de Torre Tagle. El contraste se aprecia mejor sin cambiar de nivel de calle.",
+      "en": "Make two stops on the same block. Look at this house first, then at Torre Tagle. Keeping the same street-level viewpoint makes the comparison easier.",
+      "zh": "同一街区内可做两站，先看这座宅邸，再看对面的托雷塔格莱宫。从同一高度观察，更容易比较楼层、门洞和阳台的位置。",
+      "qu": "Kay kuadrapi iskay kuti sayay. Ñawpaqta kay wasita qaway, chaymanta Torre Tagleta."
+    }
+  },
+  {
+    "slug": "san-francisco",
+    "name": "Basílica y Convento de San Francisco de Lima",
+    "address": "Jirón Ancash, esquina con Jirón Lampa",
+    "access": "venue",
+    "manager": "franciscan",
+    "image": {
+      "src": "/nearby/san-francisco.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lima_convento_san_francisco_de_asis.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Basílica y Convento de San Francisco de Lima",
+      "en": "San Francisco Basilica and Convent",
+      "zh": "圣方济各圣殿及修道院",
+      "qu": "Basílica y Convento de San Francisco de Lima"
+    },
+    "description": {
+      "es": "El conjunto franciscano figura en la primera inscripción de Lima en la lista de la UNESCO.",
+      "en": "The Franciscan complex was included in Lima’s first UNESCO listing.",
+      "zh": "方济各会建筑群属于利马首批列入世界遗产的地点。",
+      "qu": "Kay franciscano wasikunata Lima llaqtamanta ñawpaqta UNESCO qillqarqan."
+    },
+    "detail": {
+      "es": "El recorrido del museo permite acercarse a claustros y catacumbas según el circuito ofrecido.",
+      "en": "The museum’s circuit may include cloisters and catacombs, depending on the tour offered.",
+      "zh": "博物馆依导览安排开放回廊和地下墓穴。",
+      "qu": "Much’ay wasipa kanchankunata, uku p’ampanakunata riqsiy."
+    },
+    "next": "parque-muralla",
+    "photo": {
+      "es": "Desde la plazuela, encuadra la portada entre las dos torres.",
+      "en": "From the forecourt, frame the portal between the two towers.",
+      "zh": "在教堂前广场拍摄两塔之间的门廊。",
+      "qu": "Pampamanta iskay turre chawpipi punkuta siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Separa el atrio y la iglesia del recorrido de pago por convento y catacumbas. Si el tramo subterráneo no te conviene, pregunta por un itinerario de superficie.",
+      "en": "Treat the forecourt and church as a separate stop from the paid convent and catacomb circuit. Ask about a surface route if underground passages are unsuitable for you.",
+      "zh": "教堂与前庭可以单独安排，修道院和地下墓穴另按收费线路参观。如果不便走地下通道，可现场询问地面参观范围。",
+      "qu": "Pampa much’ay wasita sapanta qaway. Uku p’ampanaman mana riyta atispa, hawapi purinata tapuy."
+    }
+  },
+  {
+    "slug": "santo-domingo",
+    "name": "Iglesia y Convento de Santo Domingo, Lima",
+    "address": "Jirón Camaná 170",
+    "access": "venue",
+    "manager": "dominican",
+    "image": {
+      "src": "/nearby/santo-domingo.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_y_convento_de_Santo_Domingo_2.jpg",
+      "author": "Marco Carrasco",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Iglesia y Convento de Santo Domingo, Lima",
+      "en": "Santo Domingo Church and Convent",
+      "zh": "圣多明各教堂及修道院",
+      "qu": "Iglesia y Convento de Santo Domingo, Lima"
+    },
+    "description": {
+      "es": "Vinculado a Rosa de Lima y Martín de Porres, el conjunto dominico conserva patios con azulejos.",
+      "en": "Associated with Rose of Lima and Martín de Porres, the Dominican complex retains tiled courtyards.",
+      "zh": "这处多明我会建筑群与利马的圣罗莎、马丁·德·波雷斯有关，保留饰有彩砖的庭院。",
+      "qu": "Kay dominico wasipi Rosa de Limapa, Martín de Porrespa yuyariyninku kachkan."
+    },
+    "detail": {
+      "es": "La torre rosada ayuda a orientarse entre Camaná y Conde de Superunda.",
+      "en": "Its pink tower is a landmark around Camaná and Conde de Superunda.",
+      "zh": "粉色塔楼是街区的辨识点。",
+      "qu": "Puka turrita qhawaspa Camaná ñanta tariy."
+    },
+    "next": "santa-rosa",
+    "photo": {
+      "es": "En Camaná, busca una vista lateral con la torre detrás del muro del convento.",
+      "en": "On Camaná, find a side view with the tower rising behind the convent wall.",
+      "zh": "在卡马纳街寻找侧面视角，让塔楼从修道院围墙上方进入画面。",
+      "qu": "Camaná ñanmanta pirqa qhipapi turrita siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Reserva el tiempo de museo para los patios. En el templo, sigue el ritmo de las celebraciones y revisa el intervalo de cierre del museo al mediodía.",
+      "en": "Allow museum time for the courtyards. In the church, plan around worship, and check the museum’s midday closure before arriving.",
+      "zh": "给博物馆庭院留出观览时间。教堂参观应避开正在进行的礼仪，午间计划还要考虑博物馆的闭馆间隔。",
+      "qu": "Museopa kanchankunapaq pachata waqaychay. Chawpi p’unchaypi museo wisq’asqa kasqanta qaway."
+    }
+  },
+  {
+    "slug": "la-merced",
+    "name": "Basílica y Convento de La Merced, Lima",
+    "address": "Jirón de la Unión 621",
+    "access": "venue",
+    "manager": "merced",
+    "image": {
+      "src": "/nearby/la-merced.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_de_Nuestra_Se%C3%B1ora_de_la_Merced._Lima%2C_Per%C3%BA.jpg",
+      "author": "Rainbowasi from Lima, Peru",
+      "license": "CC BY-SA 2.0"
+    },
+    "titles": {
+      "es": "Basílica y Convento de La Merced, Lima",
+      "en": "La Merced Basilica",
+      "zh": "仁慈圣母圣殿",
+      "qu": "Basílica y Convento de La Merced, Lima"
+    },
+    "description": {
+      "es": "En plena vía peatonal, la portada barroca de La Merced destaca por sus columnas salomónicas.",
+      "en": "On the pedestrian street, La Merced’s Baroque portal stands out for its twisted columns.",
+      "zh": "圣殿沿步行街而立，螺旋柱是巴洛克门廊的辨识点。",
+      "qu": "La Merced much’ay wasipa rumi punkunpi muyurisqa saywakuna kachkan."
+    },
+    "detail": {
+      "es": "Retrocede hasta el borde opuesto de la calle para ver el conjunto.",
+      "en": "Take in the composition from the opposite edge of the street.",
+      "zh": "移至街道对侧可看到完整构图。",
+      "qu": "Ñan chimpamanta muyurisqa saywa rumikunata qaway."
+    },
+    "next": "jiron-union",
+    "photo": {
+      "es": "Desde el borde del corredor peatonal, aísla las columnas retorcidas de la portada.",
+      "en": "From the edge of the pedestrian lane, isolate the twisted columns on the portal.",
+      "zh": "站在步行街边，从门廊中单独取景拍摄螺旋柱。",
+      "qu": "Ñan patamanta muyurisqa saywakunata siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Haz una pausa en el borde peatonal para leer la portada por niveles. Antes de entrar, comprueba si el templo está celebrando misa.",
+      "en": "Pause at the pedestrian edge and look at the portal from bottom to top. Before entering, check whether worship is under way.",
+      "zh": "在人行区边缘停留，从下到上看门廊的层次。准备入内时，先确认是否正在举行弥撒。",
+      "qu": "Chaki ñan patapi sayaspa punkuta uraymanta hanaqkama qaway. Misa kaptin suyay."
+    }
+  },
+  {
+    "slug": "san-pedro",
+    "name": "Basílica y Convento de San Pedro de Lima",
+    "address": "Jirón Azángaro 451",
+    "access": "venue",
+    "manager": "jesuit",
+    "image": {
+      "src": "/nearby/san-pedro.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Pedro.JPG",
+      "author": "Manuel González Olaechea",
+      "license": "GFDL"
+    },
+    "titles": {
+      "es": "Basílica y Convento de San Pedro de Lima",
+      "en": "San Pedro Basilica",
+      "zh": "圣伯多禄圣殿",
+      "qu": "Basílica y Convento de San Pedro de Lima"
+    },
+    "description": {
+      "es": "La iglesia jesuita del siglo XVII contrasta una fachada de piedra sobria con retablos dorados en el interior.",
+      "en": "The seventeenth-century Jesuit church pairs a restrained stone facade with gilded altarpieces.",
+      "zh": "十七世纪的耶稣会教堂以简朴石立面衬托内部金饰祭坛。",
+      "qu": "Jesuita runakuna XVII pachak watapi kay much’ay wasita rurarqanku."
+    },
+    "detail": {
+      "es": "La esquina con Ucayali permite situarla en el eje de casonas históricas.",
+      "en": "Its Ucayali corner places it on the same street as historic mansions.",
+      "zh": "乌卡亚利街转角也连起附近历史宅邸。",
+      "qu": "Hawa rumi uyanta, ukhupi quri altar nisqakunata qaway."
+    },
+    "next": "torre-tagle",
+    "photo": {
+      "es": "Desde el cruce con Ucayali, encuadra el lateral de la iglesia y la entrada.",
+      "en": "From the Ucayali corner, frame the side of the church and its entrance.",
+      "zh": "从乌卡亚利街路口拍到教堂侧墙与入口。",
+      "qu": "Ucayali kuchumanta punkuta siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Empieza en la esquina de Ucayali. La diferencia entre la piedra de la fachada y los retablos interiores se entiende mejor dedicando tiempo a ambas vistas.",
+      "en": "Begin on the Ucayali corner. The contrast between exterior stone and interior altarpieces is clearest when you allow time for both views.",
+      "zh": "从乌卡亚利街转角开始，先看石砌外墙。如开放入内，再对照内部祭坛的金饰与细部。",
+      "qu": "Ucayali kuchumanta qallariy. Hawa rumita, kichasqa kaptin uku altar nisqakunata qaway."
+    }
+  },
+  {
+    "slug": "san-agustin",
+    "name": "Iglesia de San Agustín, Lima",
+    "address": "Jirón Ica, esquina con Jirón Camaná",
+    "access": "venue",
+    "manager": "augustinian",
+    "image": {
+      "src": "/nearby/san-agustin.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Agust%C3%ADn%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_22.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Iglesia de San Agustín, Lima",
+      "en": "San Agustín Church",
+      "zh": "圣奥古斯丁教堂",
+      "qu": "Iglesia de San Agustín, Lima"
+    },
+    "description": {
+      "es": "La portada churrigueresca se eleva como un retablo de piedra, con nichos y columnas ornamentadas.",
+      "en": "Its Churrigueresque portal rises like a stone altarpiece with niches and ornamented columns.",
+      "zh": "繁复的丘里格拉式门廊像一座石祭坛，布满壁龛和装饰柱。",
+      "qu": "San Agustínpa rumi punkunpi achka uchuy t’ukukuna kachkan."
+    },
+    "detail": {
+      "es": "El espacio frente a la entrada ofrece distancia para mirar los niveles.",
+      "en": "The space opposite gives room to see its tiers.",
+      "zh": "入口对面的空间适合观察各层。",
+      "qu": "Ñawpaq pampamanta punkupa pata patanta qaway."
+    },
+    "next": "teatro-municipal",
+    "photo": {
+      "es": "La plazuela permite centrar la portada y captar sus nichos sin una perspectiva tan inclinada.",
+      "en": "The forecourt lets you centre the portal and capture its niches with less perspective distortion.",
+      "zh": "从教堂前小广场正对门廊取景，可较完整地轴向拍摄壁龛和石雕。",
+      "qu": "Pampamanta rumi punkuta siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Mira el portal desde el fondo de la plazuela y acércate después para distinguir los nichos. Así puedes leer primero la silueta y luego la talla.",
+      "en": "View the portal from the far edge of the forecourt, then come closer to pick out individual niches. Read the silhouette before the carving.",
+      "zh": "先从小广场远端看门廊轮廓，再靠近分辨各个壁龛和石雕，让远看与近看各有重点。",
+      "qu": "Pampa tukukuyninmanta punkuta qaway. Chaymanta asuykuspa rumi t’ukukunata qaway."
+    }
+  },
+  {
+    "slug": "santa-rosa",
+    "name": "Santuario de Santa Rosa de Lima",
+    "address": "Avenida Tacna 100",
+    "access": "venue",
+    "manager": "rosa",
+    "image": {
+      "src": "/nearby/santa-rosa.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Santuario_de_Santa_Rosa_de_Lima_des_de_l%27avenida_Tacna_amb_el_Jir%C3%B3n_Callao.jpg",
+      "author": "Pitxiquin",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Santuario de Santa Rosa de Lima",
+      "en": "Saint Rose of Lima Sanctuary",
+      "zh": "利马圣罗莎圣所",
+      "qu": "Santuario de Santa Rosa de Lima"
+    },
+    "description": {
+      "es": "El santuario recuerda la vida de Rosa de Lima.",
+      "en": "The shrine commemorates Rose of Lima.",
+      "zh": "圣所纪念利马的圣罗莎。",
+      "qu": "Rosa de Limapa kawsayninta kay kitipi yuyarinku. Pukyuman mañakuy qillqakunata churanku."
+    },
+    "detail": {
+      "es": "El pozo asociado a las cartas de devoción es una parada distinta de la visita a la iglesia.",
+      "en": "The well associated with devotional letters is a separate stop from the church itself.",
+      "zh": "信众投递祈愿信的井与教堂是两处不同的参观点。",
+      "qu": "Santa Rosapa yuyarinanpi mañakuy qillqakunapa pukyunta riqsiy."
+    },
+    "next": "santo-domingo",
+    "photo": {
+      "es": "Encuadra la entrada desde la acera de Tacna y deja espacio a quienes entran al santuario.",
+      "en": "Frame the entrance from the Tacna sidewalk and leave room for worshippers.",
+      "zh": "在塔克纳大道的人行道拍摄入口，为进出的信众留出通道。",
+      "qu": "Tacna ñanmanta punkuta siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Decide si quieres ver el templo, el pozo o los dos. Los tiempos de espera pueden ser distintos en jornadas de devoción, en especial cerca de la festividad de Santa Rosa.",
+      "en": "Choose whether to see the church, the well or both. Queues can differ on devotional days, especially around Saint Rose’s feast.",
+      "zh": "可分别安排教堂和许愿井。遇到宗教活动，尤其是圣罗莎庆日前后，两处排队长度和通行安排可能不同。",
+      "qu": "Much’ay wasita, pukyuta icha iskayninta qaway. Santa Rosapa rayminpi suyana pacha hukmanyanman."
+    }
+  },
+  {
+    "slug": "las-nazarenas",
+    "name": "Santuario de Las Nazarenas, Lima",
+    "address": "Avenida Tacna 550",
+    "access": "venue",
+    "manager": "nazarenas",
+    "image": {
+      "src": "/nearby/las-nazarenas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nazarenas04_2019.jpg",
+      "author": "Gatodemichi",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Santuario de Las Nazarenas, Lima",
+      "en": "Las Nazarenas Sanctuary",
+      "zh": "纳萨雷纳斯圣所",
+      "qu": "Santuario de Las Nazarenas, Lima"
+    },
+    "description": {
+      "es": "El templo custodia la imagen del Señor de los Milagros, centro de las procesiones limeñas de octubre.",
+      "en": "The sanctuary houses the image of the Lord of Miracles, the focus of Lima’s October processions.",
+      "zh": "圣所供奉奇迹之主圣像，是利马十月巡游的核心。",
+      "qu": "Octubre killapi Señor de los Milagros llaqtanta muyun. Chaypa rikch’ayninqa kay wasipin kachkan."
+    },
+    "detail": {
+      "es": "En la avenida, la fachada se reconoce entre el tráfico de Tacna.",
+      "en": "Its facade is visible from the busy Tacna avenue.",
+      "zh": "在繁忙的塔克纳大道上可辨识教堂立面。",
+      "qu": "Tacna hatun ñanmanta much’ay wasipa uyanta qaway."
+    },
+    "next": "san-agustin",
+    "photo": {
+      "es": "Desde el borde de Tacna, una toma vertical separa la fachada de los edificios vecinos.",
+      "en": "From the edge of Tacna, a vertical shot separates the facade from its neighbours.",
+      "zh": "从塔克纳大道一侧竖构图，将圣所立面与相邻建筑区分开。",
+      "qu": "Tacna patamanta much’ay wasi uyanta siqiy."
+    },
+    "kind": "church",
+    "visitTip": {
+      "es": "Si vas en octubre, consulta el itinerario de la procesión antes de fijar el punto de encuentro. En una visita ordinaria, empieza por la entrada de la avenida Tacna.",
+      "en": "In October, check the procession route before choosing a meeting point. On an ordinary visit, begin at the entrance on Avenida Tacna.",
+      "zh": "十月出行可先查巡游路线再定会合点。普通到访从塔克纳大道的入口开始，留意礼拜与参观的动线。",
+      "qu": "Octubre killapi procesiónpa ñanta ñawpaqta qaway. Huk p’unchaypi Tacna punkumanta qallariy."
+    }
+  },
+  {
+    "slug": "parque-muralla",
+    "name": "Parque de la Muralla, Lima",
+    "address": "Jirón Amazonas, esquina con Avenida Abancay",
+    "access": "public",
+    "manager": "serpar",
+    "image": {
+      "src": "/nearby/parque-muralla.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_de_la_Muralla_%283913115458%29.jpg",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0"
+    },
+    "titles": {
+      "es": "Parque de la Muralla, Lima",
+      "en": "Parque de la Muralla",
+      "zh": "利马城墙公园",
+      "qu": "Parque de la Muralla, Lima"
+    },
+    "description": {
+      "es": "El parque junto al Rímac conserva restos de la antigua muralla.",
+      "en": "This park beside the Rímac preserves remnants of the city wall.",
+      "zh": "里马克河边的公园保留了老城墙遗迹。",
+      "qu": "Rimaq mayu qayllapi Lima llaqtapa ñawpa pirqanpa puchunkuna kachkan."
+    },
+    "detail": {
+      "es": "Observa cómo el desnivel separa el paseo actual de los vestigios y del cauce.",
+      "en": "Notice the change in level between the modern path, the remains and the riverbed.",
+      "zh": "可观察现代步道、遗址和河床之间的高差。",
+      "qu": "Rimaq mayu qayllapi ñawpa pirqa puchukunata qaway."
+    },
+    "next": "casa-literatura",
+    "photo": {
+      "es": "Desde el sendero superior, encuadra los restos de la muralla y el desnivel hacia el Rímac.",
+      "en": "From the upper path, frame the wall remnants and the drop toward the Rímac.",
+      "zh": "从上层步道把城墙遗迹及通向里马克河的高差收进画面。",
+      "qu": "Hanaq ñanmanta pirqata mayuta siqiy."
+    },
+    "kind": "park",
+    "visitTip": {
+      "es": "Empieza por el sendero elevado para orientarte y luego baja hacia los restos visibles. Consulta por separado el horario del museo de sitio.",
+      "en": "Start on the upper path to get your bearings, then head down towards the exposed remains. Check the site museum’s hours separately.",
+      "zh": "先走上层步道定位河道和古城墙，再下到可见遗迹一带。若打算进遗址博物馆，另查馆内时间。",
+      "qu": "Hanaq ñanmanta mayuta pirqata riqsiy. Urayman riy, museopa pachanta sapanta tapuy."
+    }
+  },
+  {
+    "slug": "casa-literatura",
+    "name": "Casa de la Literatura Peruana",
+    "address": "Jirón Ancash 207",
+    "access": "venue",
+    "manager": "literature",
+    "image": {
+      "src": "/nearby/casa-literatura.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lima_gare.jpg",
+      "author": "Velvet",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Casa de la Literatura Peruana",
+      "en": "House of Peruvian Literature",
+      "zh": "秘鲁文学之家",
+      "qu": "Casa de la Literatura Peruana"
+    },
+    "description": {
+      "es": "La institución ocupa la antigua estación de Desamparados.",
+      "en": "The institution occupies the former Desamparados railway station.",
+      "zh": "文学机构设于原德萨姆帕拉多斯火车站。",
+      "qu": "Kay wasi ñawpaqtaqa Desamparados trenpa sayanan karqan. Kunanqa Piruwpa qillqayninkunata riqsichin."
+    },
+    "detail": {
+      "es": "La iluminación cenital y la escalera recuerdan el uso ferroviario del edificio.",
+      "en": "Overhead glazing and the stairs recall the building’s railway past.",
+      "zh": "天窗和楼梯仍可让人联想到车站原有功能。",
+      "qu": "Ñawpa tren wasipi hanaq k’anchayta siqanatawan qaway."
+    },
+    "next": "puente-piedra",
+    "photo": {
+      "es": "Desde Ancash, encuadra la entrada de la estación; en el interior, mira hacia los lucernarios si se permiten fotos.",
+      "en": "Frame the former station entrance from Ancash; inside, look up to the skylights if photography is permitted.",
+      "zh": "在安卡什街拍摄原车站入口，馆内允许拍照时可抬头拍天窗。",
+      "qu": "Ancash ñanmanta punkuta siqiy."
+    },
+    "kind": "museum",
+    "visitTip": {
+      "es": "Mira primero el vestíbulo como espacio ferroviario y después entra en la exposición. Si buscas una actividad concreta, elige la fecha con el programa en mano.",
+      "en": "Read the entrance hall as a railway space before entering the exhibition. If you want a specific event, choose your visit using the programme.",
+      "zh": "先把大厅当作旧车站空间看，再进展览区。若专程参加活动，先对照文学之家的节目表选日期。",
+      "qu": "Ñawpaqta trenpa ukunta qaway, chaymanta qawachikuyman yaykuy. Rurayta munaspa p’unchayninta qaway."
+    }
+  },
+  {
+    "slug": "puente-piedra",
+    "name": "Puente de Piedra (Puente Trujillo), Lima",
+    "address": "Jirón de la Unión, cruce del río Rímac",
+    "access": "public",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/puente-piedra.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lima_R%C3%ADo_R%C3%ADmac_Bridge.jpg",
+      "author": "AgainErick",
+      "license": "GFDL"
+    },
+    "titles": {
+      "es": "Puente de Piedra (Puente Trujillo), Lima",
+      "en": "Stone Bridge",
+      "zh": "利马石桥",
+      "qu": "Puente de Piedra (Puente Trujillo), Lima"
+    },
+    "description": {
+      "es": "También llamado Puente Trujillo, conecta el centro con el Rímac.",
+      "en": "Also called Puente Trujillo, this crossing joins central Lima and Rímac.",
+      "zh": "这座桥又称特鲁希略桥，连接利马中心与里马克。",
+      "qu": "Kay rumi chaka Lima chawpita Rimaqwan tinkichin. Puente Trujillo sutiyuqpas."
+    },
+    "detail": {
+      "es": "Desde las orillas se aprecian mejor los arcos que desde el tablero del puente.",
+      "en": "The arches are easier to appreciate from the banks than from the bridge deck.",
+      "zh": "观察桥拱宜从河岸一侧取景。",
+      "qu": "Mayu patamanta rumi chakapa arkunkunata qaway."
+    },
+    "next": "alameda-descalzos",
+    "photo": {
+      "es": "Desde un punto público junto al río, busca un ángulo lateral para encuadrar más de un arco.",
+      "en": "From a public riverside spot, look for a side angle that frames several arches.",
+      "zh": "从公共河岸找侧向角度，尽量拍进不止一个桥拱。",
+      "qu": "Mayu patamanta chaka arkunkunata siqiy."
+    },
+    "kind": "street",
+    "visitTip": {
+      "es": "Cruza por el paso habilitado y busca después un punto público lateral para ver los arcos. El recorrido cambia de Cercado a Rímac.",
+      "en": "Cross on the designated pedestrian path, then look for a public side viewpoint for the arches. The walk takes you from Cercado into Rímac.",
+      "zh": "走开放的行人通道过河，再找公共河岸侧看桥拱。过桥即从利马中心区走向里马克区。",
+      "qu": "Chakinapaq ñanwan chimpay. Chaymanta mayu patamanta chaka arkunata qaway. Cercadomanta Rimaqman chayanki."
+    }
+  },
+  {
+    "slug": "alameda-descalzos",
+    "name": "Alameda de los Descalzos, Rímac",
+    "address": "Alameda de los Descalzos, Rímac",
+    "access": "public",
+    "manager": "rimac",
+    "image": {
+      "src": "/nearby/alameda-descalzos.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Lima_-_Alameda_de_Los_descalzos.jpg",
+      "author": "Felipe Restrpo Acosta",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Alameda de los Descalzos, Rímac",
+      "en": "Alameda de los Descalzos",
+      "zh": "赤足修士林荫道",
+      "qu": "Alameda de los Descalzos, Rímac"
+    },
+    "description": {
+      "es": "El paseo virreinal del Rímac adquirió su aspecto escultórico en el siglo XIX.",
+      "en": "This viceregal walk in Rímac acquired its sculptural character in the nineteenth century.",
+      "zh": "里马克的林荫道始于总督时期，十九世纪形成如今雕像列阵的景观。",
+      "qu": "Kay purina ñan virreykunapa pachanmanta hamun. XIX pachak watapi saywachakunata churarqanku."
+    },
+    "detail": {
+      "es": "Las estatuas alineadas marcan el eje hacia el convento de los Descalzos.",
+      "en": "The line of statues leads the eye toward the Descalzos convent.",
+      "zh": "雕像排列将视线引向赤足修士修道院。",
+      "qu": "Saywachasqa runakunaq qatinta Descalzos wasikama qaway."
+    },
+    "next": "paseo-aguas",
+    "photo": {
+      "es": "Desde el eje del paseo, usa las dos hileras de esculturas para dar profundidad.",
+      "en": "From the walk’s centre line, use the rows of sculptures to give the view depth.",
+      "zh": "沿林荫道中轴取景，用两排雕像拉开纵深。",
+      "qu": "Ñan chawpimanta iskay saywacha qatikunata siqiy."
+    },
+    "kind": "street",
+    "visitTip": {
+      "es": "Empieza en uno de los extremos del eje para leer la alineación completa. Deja la visita al convento como parada aparte, con su propio acceso.",
+      "en": "Start at one end of the promenade to see the full alignment. Treat the convent as a separate stop with its own access arrangements.",
+      "zh": "从林荫道一端沿轴线观看整列雕像。若再参观修道院，将其另作一站并核对入口。",
+      "qu": "Ñanpa huk tukukuyninmanta qallariy, llapan qatinta qawanaykipaq. Conventoman yaykunata sapanta tapuy."
+    }
+  },
+  {
+    "slug": "paseo-aguas",
+    "name": "Paseo de Aguas, Rímac",
+    "address": "Jirón Hualgayoc, Rímac",
+    "access": "public",
+    "manager": "rimac",
+    "image": {
+      "src": "/nearby/paseo-aguas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Paseo_de_aguas_del_Rimac.jpg",
+      "author": "Gatodemichi",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Paseo de Aguas, Rímac",
+      "en": "Paseo de Aguas",
+      "zh": "里马克水景步道",
+      "qu": "Paseo de Aguas, Rímac"
+    },
+    "description": {
+      "es": "El paseo se asocia con el virrey Manuel de Amat.",
+      "en": "The promenade is associated with Viceroy Manuel de Amat.",
+      "zh": "步道与总督曼努埃尔·德阿马特有关。",
+      "qu": "Kay purina ñanta virrey Manuel de Amatwan tinkichinku. Yaku quchapa qhipanpi arku pirqa kachkan."
+    },
+    "detail": {
+      "es": "Su muro de arquerías sirve de fondo a la perspectiva del estanque.",
+      "en": "Its wall of arches forms a backdrop to the basin’s long view.",
+      "zh": "拱墙是水池长轴视角的背景。",
+      "qu": "Yaku quchapa tukukuyninpi arkuyuq pirqata qaway."
+    },
+    "next": "alameda-descalzos",
+    "photo": {
+      "es": "Desde el extremo del estanque, busca la simetría entre el agua y la arquería.",
+      "en": "From the end of the basin, line up the water and the symmetrical arches.",
+      "zh": "从水池一端沿中轴拍摄水面与对称拱墙。",
+      "qu": "Qucha tukukuyninmanta arkukunata siqiy."
+    },
+    "kind": "street",
+    "visitTip": {
+      "es": "Mira la arquería desde el extremo opuesto del estanque y continúa hacia la Alameda si deseas comparar los dos paseos del Rímac.",
+      "en": "Look at the arcades from the far end of the basin, then continue to the Alameda to compare two historic Rímac promenades.",
+      "zh": "从水池另一端看整排拱墙，然后可步行接赤足修士林荫道，对照里马克两处历史步道。",
+      "qu": "Qucha huk tukukuyninmanta arkukunata qaway, chaymanta Alamedaman riy."
+    }
+  },
+  {
+    "slug": "plaza-bolivar",
+    "name": "Plaza Bolívar (Plaza del Congreso), Lima",
+    "address": "Jirón Junín, frente al Palacio Legislativo",
+    "access": "public",
+    "manager": "congress",
+    "image": {
+      "src": "/nearby/plaza-bolivar.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lima_1980_06.jpg",
+      "author": "LBM1948",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Plaza Bolívar (Plaza del Congreso), Lima",
+      "en": "Plaza Bolívar",
+      "zh": "玻利瓦尔广场",
+      "qu": "Plaza Bolívar (Plaza del Congreso), Lima"
+    },
+    "description": {
+      "es": "La estatua ecuestre de Simón Bolívar preside el espacio frente al Congreso.",
+      "en": "Simón Bolívar’s equestrian statue fronts Congress.",
+      "zh": "西蒙·玻利瓦尔骑马像立于国会前。",
+      "qu": "Simón Bolívarpa kawallu saywachan Congreso wasipa ñawpaqninpi kachkan."
+    },
+    "detail": {
+      "es": "La relación entre monumento y escalinata se entiende de frente desde Junín.",
+      "en": "From Jirón Junín, look at the alignment of the monument and legislative steps.",
+      "zh": "从胡宁街正面可看出纪念像与国会台阶的轴线关系。",
+      "qu": "Junín ñanmanta Bolívarpa kawallu saywachanta qaway."
+    },
+    "next": "museo-inquisicion",
+    "photo": {
+      "es": "Desde Junín, usa la estatua de Bolívar como primer plano delante del Congreso.",
+      "en": "From Junín, use Bolívar’s statue as a foreground for the Congress building.",
+      "zh": "从胡宁街用玻利瓦尔像作前景、国会大楼作背景。",
+      "qu": "Junín ñanmanta Bolívarpa saywachanta siqiy."
+    },
+    "kind": "square",
+    "visitTip": {
+      "es": "Sitúate primero en el lado de Junín para leer el eje monumento–Congreso. Si hay vallas o actos, usa el perímetro público y mantén flexible el recorrido.",
+      "en": "Start on the Junín side to read the alignment of the monument and Congress. During events or cordons, follow the public perimeter and keep your route flexible.",
+      "zh": "从胡宁街一侧看纪念碑和国会建筑的中轴线。如遇围栏或活动，沿开放的外围人行道调整路线。",
+      "qu": "Junín ladumanta Bolívarpa saywachanta Congreso wasitawan qaway. Hark’ana kaptin hawa ñanta qatipay."
+    }
+  },
+  {
+    "slug": "museo-inquisicion",
+    "name": "Museo de la Inquisición y del Congreso, Lima",
+    "address": "Jirón Junín 548",
+    "access": "exterior",
+    "manager": "congress",
+    "image": {
+      "src": "/nearby/museo-inquisicion.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Inquisition_Museum%2C_Lima.jpg",
+      "author": "Capomo81",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Museo de la Inquisición y del Congreso, Lima",
+      "en": "Museum of the Inquisition and Congress",
+      "zh": "宗教裁判所与国会博物馆",
+      "qu": "Museo de la Inquisición y del Congreso, Lima"
+    },
+    "description": {
+      "es": "El inmueble fue sede del tribunal inquisitorial y luego albergó funciones legislativas.",
+      "en": "The Inquisition’s tribunal once occupied the building, which later served legislative functions.",
+      "zh": "建筑曾用于宗教裁判，后来承担过立法职能。",
+      "qu": "Ñawpaq Inquisición nisqa taripay wasi karqan. Qhipaman Congreso llamk’ayninkunapaq llamk’achirqanku."
+    },
+    "detail": {
+      "es": "Si el museo no ofrece ingreso, la portada frente a la plaza sigue siendo una parada breve de contexto.",
+      "en": "When museum entry is unavailable, the facade across the square still adds context to the walk.",
+      "zh": "馆内无法进入时，仍可从广场一侧短暂停留看外观。",
+      "qu": "Plaza chimpamanta ñawpa taripay wasipa punkunta qaway."
+    },
+    "next": "plaza-bolivar",
+    "photo": {
+      "es": "Desde la plaza, fotografía la portada completa de frente.",
+      "en": "From the square, frame the full portal straight on.",
+      "zh": "从广场正面拍摄完整门廊。",
+      "qu": "Plazamanta llapan punkuta siqiy."
+    },
+    "kind": "museum",
+    "visitTip": {
+      "es": "Prepara un recorrido exterior desde la plaza y añade el interior solo si hay atención al público. Desde el frente se aprecian mejor las columnas del pórtico.",
+      "en": "Plan an exterior stop from the square and add the interior only if visitor access is available. The portico’s columns are clearest from directly across.",
+      "zh": "可先按广场上的外观停留规划行程，确认开放后再增加馆内参观。正对建筑能更好看清门廊立柱。",
+      "qu": "Plazamanta hawanta qaway. Museo kichasqa kaptin ukhuman yaykuy. Chimpamanta saywankunata qaway."
+    }
+  },
+  {
+    "slug": "museo-bcrp",
+    "name": "Museo Central (MUCEN), Lima",
+    "address": "Jirón Ucayali 299, esquina con Jirón Lampa",
+    "access": "venue",
+    "manager": "bcrp",
+    "image": {
+      "src": "/nearby/museo-bcrp.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lima_mucen1.JPG",
+      "author": "Catatine",
+      "license": "GFDL"
+    },
+    "titles": {
+      "es": "Museo Central (MUCEN), Lima",
+      "en": "Museo Central",
+      "zh": "秘鲁中央银行博物馆",
+      "qu": "Museo Central (MUCEN), Lima"
+    },
+    "description": {
+      "es": "El museo del banco central ocupa su antigua sede y reúne arte y objetos de diversas épocas.",
+      "en": "The central bank museum occupies its former headquarters and presents art and objects across periods.",
+      "zh": "中央银行博物馆设于原行舍，收藏跨越多个时期的艺术品与器物。",
+      "qu": "Ñawpa banco wasipi Piruwpa imaymana rurayninkunata qawachinku. Qullqi waqaychana uku wasi kachkan."
+    },
+    "detail": {
+      "es": "La bóveda bancaria forma parte de la lectura histórica del edificio.",
+      "en": "The bank vault adds a layer to the building’s history.",
+      "zh": "金库也是理解建筑原用途的线索。",
+      "qu": "Ñawpa qullqi waqaychana wasipi imaymana ruraykunata riqsiy."
+    },
+    "next": "torre-tagle",
+    "photo": {
+      "es": "En Ucayali, encuadra la entrada bancaria; pregunta antes de fotografiar la bóveda.",
+      "en": "On Ucayali, frame the original bank entrance. Ask before photographing the vault.",
+      "zh": "在乌卡亚利街拍摄原银行入口。拍摄金库前向馆方询问。",
+      "qu": "Ucayali ñanmanta punkuta siqiy."
+    },
+    "kind": "museum",
+    "visitTip": {
+      "es": "Localiza la entrada en el cruce de Ucayali con Lampa. Antes de subir a las salas, observa los elementos que delatan el pasado bancario del edificio.",
+      "en": "Look for the entrance at Ucayali and Lampa. Before heading to the galleries, look for architectural clues to the building’s past as a bank.",
+      "zh": "在乌卡亚利街和兰帕街交叉口找入口。进展厅前先看立面和入口上原银行用途留下的线索。",
+      "qu": "Ucayali Lampa tinkuyninpi punkuta maskay. Museo manaraq yaykuspa, ñawpa banco wasipa uyanta qaway."
+    }
+  },
+  {
+    "slug": "casa-grau",
+    "name": "Museo Naval Casa Grau, Lima",
+    "address": "Jirón Huancavelica 170–172",
+    "access": "venue",
+    "manager": "navy",
+    "image": {
+      "src": "/nearby/casa-grau.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Museo_Naval_-_Casa_Grau.jpg",
+      "author": "Ministerio de Defensa del Perú",
+      "license": "CC BY 2.0"
+    },
+    "titles": {
+      "es": "Museo Naval Casa Grau, Lima",
+      "en": "Casa Grau Naval Museum",
+      "zh": "格劳故居海军博物馆",
+      "qu": "Museo Naval Casa Grau, Lima"
+    },
+    "description": {
+      "es": "La casa museo recuerda la vida familiar de Miguel Grau y su trayectoria naval.",
+      "en": "This house museum recalls Miguel Grau’s family life and naval career.",
+      "zh": "故居博物馆记录米格尔·格劳的家庭生活及海军生涯。",
+      "qu": "Miguel Graupa ayllunmanta, lamar quchapi llamk’ayninmanta kay wasipi yachanki."
+    },
+    "detail": {
+      "es": "Las salas domésticas dan escala humana al relato de la Guerra del Pacífico.",
+      "en": "Domestic rooms give a personal scale to the story of the War of the Pacific.",
+      "zh": "家居房间为了解太平洋战争提供个人视角。",
+      "qu": "Miguel Graupa ayllunpa kawsaq kuartunkunata riqsiy."
+    },
+    "next": "teatro-segura",
+    "photo": {
+      "es": "En Huancavelica, busca la placa de la casa y su relación con las ventanas y la entrada.",
+      "en": "On Huancavelica, frame the house plaque together with the windows and entry.",
+      "zh": "在万卡韦利卡街把故居标牌、窗户及入口一同取景。",
+      "qu": "Huancavelica ñanmanta qillqata punkutawan siqiy."
+    },
+    "kind": "museum",
+    "visitTip": {
+      "es": "Aprovecha una de las franjas de apertura, evitando la pausa de mediodía. En las salas, fíjate en la diferencia entre el relato familiar y las piezas de historia naval.",
+      "en": "Choose one of the two opening windows, avoiding the midday break. Inside, compare the family story with the naval-history objects.",
+      "zh": "选上午或下午其中一个开放时段，避开午间闭馆。馆内可对照格劳的家庭生活叙事与海军史展件。",
+      "qu": "Chawpi p’unchaypa wisq’ananta qaway. Uhkupi ayllu kawsayta lamar qucha ñawpa imakunatawan tupachiy."
+    }
+  },
+  {
+    "slug": "teatro-municipal",
+    "name": "Teatro Municipal de Lima",
+    "address": "Jirón Ica 377",
+    "access": "venue",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/teatro-municipal.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Teatro_municipal%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_10.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Teatro Municipal de Lima",
+      "en": "Municipal Theatre of Lima",
+      "zh": "利马市立剧院",
+      "qu": "Teatro Municipal de Lima"
+    },
+    "description": {
+      "es": "El teatro abrió como Teatro Forero y fue reconstruido tras el incendio de 1998.",
+      "en": "Opened as Teatro Forero, the theatre was rebuilt after the 1998 fire.",
+      "zh": "剧院最初名为福雷罗剧院，1998年火灾后重建。",
+      "qu": "Teatro Forero sutiyuqmi ñawpaqta karqan. 1998 watapi ruphasqan qhipaman yapamanta rurarqanku."
+    },
+    "detail": {
+      "es": "Su fachada de Ica anuncia un interior concebido para espectáculos en vivo.",
+      "en": "Its Jirón Ica frontage leads to a hall designed for live performance.",
+      "zh": "伊卡街正立面后的演出厅仍用于现场表演。",
+      "qu": "Ica ñanmanta taki wasipa uyanta qaway."
+    },
+    "next": "san-agustin",
+    "photo": {
+      "es": "Desde la acera opuesta de Ica, encuadra la fachada del teatro hasta la cornisa.",
+      "en": "From the opposite side of Ica, frame the theatre frontage up to the cornice.",
+      "zh": "在伊卡街对面把剧院立面拍到檐口。",
+      "qu": "Ica ñan chimpamanta taki wasita siqiy."
+    },
+    "kind": "theatre",
+    "visitTip": {
+      "es": "Separa la parada de fachada de la visita a una función. Para ver el auditorio, consulta antes la cartelera o la disponibilidad de una visita organizada.",
+      "en": "Plan the facade stop separately from a performance. To see the auditorium, check what is on or whether there is a scheduled tour.",
+      "zh": "看外观和进场看演出宜分别计划。若希望进入观众厅，提前查剧目、售票或导览场次。",
+      "qu": "Taki wasipa hawanta qaway. Ukhupi takita uyarinapaq ruranakuna qillqata ñawpaqta qaway."
+    }
+  },
+  {
+    "slug": "teatro-segura",
+    "name": "Teatro Manuel Ascencio Segura, Lima",
+    "address": "Jirón Huancavelica 261",
+    "access": "venue",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/teatro-segura.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Teatro_Manuel_Ascencio_Segura.jpg",
+      "author": "Juan José Pacheco Ibarra",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Teatro Manuel Ascencio Segura, Lima",
+      "en": "Segura Theatre",
+      "zh": "塞古拉剧院",
+      "qu": "Teatro Manuel Ascencio Segura, Lima"
+    },
+    "description": {
+      "es": "El teatro lleva el nombre del dramaturgo peruano Manuel Ascencio Segura.",
+      "en": "The theatre bears the name of Peruvian playwright Manuel Ascencio Segura.",
+      "zh": "剧院以秘鲁剧作家曼努埃尔·阿森西奥·塞古拉命名。",
+      "qu": "Manuel Ascencio Segura qillqaqpa sutinta apaq taki wasi."
+    },
+    "detail": {
+      "es": "La entrada de Huancavelica permite leer su papel en la historia escénica del centro.",
+      "en": "Its Huancavelica entrance marks a site tied to the city centre’s theatrical history.",
+      "zh": "从万卡韦利卡街入口可以认识这处老城演出场所。",
+      "qu": "Huancavelica ñanpi Segurapa taki wasinta tariy."
+    },
+    "next": "casa-grau",
+    "photo": {
+      "es": "Desde la acera opuesta de Huancavelica, incluye el nombre del teatro en la toma.",
+      "en": "From across Huancavelica, include the theatre’s name in the frame.",
+      "zh": "在万卡韦利卡街对侧拍摄，把剧院名称纳入画面。",
+      "qu": "Huancavelica chimpamanta taki wasipa sutinta siqiy."
+    },
+    "kind": "theatre",
+    "visitTip": {
+      "es": "Ubica la entrada por Huancavelica y combina el exterior con el cercano Museo Casa Grau. Si tienes entrada para una función, vuelve con margen para el ingreso.",
+      "en": "Find the Huancavelica entrance and pair the exterior with the nearby Casa Grau Museum. If attending a show, allow time for entry.",
+      "zh": "从万卡韦利卡街找入口，可和附近格劳故居连逛。持演出票到访时，预留进场时间。",
+      "qu": "Huancavelica ñanpi punkuta tariy, chaymanta Casa Grauman riy. Takiman yaykunapaq ñawpaqta chayay."
+    }
+  },
+  {
+    "slug": "jiron-union",
+    "name": "Jirón de la Unión, Lima",
+    "address": "Entre Plaza San Martín y Plaza Mayor, Cercado de Lima",
+    "access": "public",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/jiron-union.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jir%C3%B3n_de_la_Uni%C3%B3n_cuadra_4.jpg",
+      "author": "Juan José Pacheco Ibarra",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Jirón de la Unión, Lima",
+      "en": "Jirón de la Unión",
+      "zh": "联盟街",
+      "qu": "Jirón de la Unión, Lima"
+    },
+    "description": {
+      "es": "El eje peatonal une las dos plazas principales.",
+      "en": "The pedestrian axis connects the two main squares.",
+      "zh": "步行轴串联两座主要广场，沿途有店铺、共和时期建筑和仁慈圣母圣殿。",
+      "qu": "Kay chaki ñan Plaza San Martínta Plaza Mayorwan tinkichin."
+    },
+    "detail": {
+      "es": "Alterna vitrinas comerciales, edificios republicanos y la portada de La Merced; mira por encima de los escaparates para encontrar las fachadas antiguas.",
+      "en": "Shop windows alternate with republican-era buildings and La Merced’s portal; look above storefronts for historic facades.",
+      "zh": "抬头看橱窗上方，可发现保留的老立面。",
+      "qu": "Iskay plazata tinkichiq ñanpi qhatu wasikunapa hanaqninta qaway."
+    },
+    "next": "la-merced",
+    "photo": {
+      "es": "Busca un punto en el borde peatonal desde el que se encadenen balcones, escaparates y la portada de La Merced.",
+      "en": "From the edge of the pedestrian street, line up balconies, shop windows and La Merced’s portal.",
+      "zh": "从步行街边寻找能把阳台、店铺橱窗和教堂门廊串在一起的视角。",
+      "qu": "Ñan patamanta balkonkunata much’ay wasi punkunta siqiy."
+    },
+    "kind": "street",
+    "visitTip": {
+      "es": "Divide la caminata en tres tramos: salida desde San Martín, parada ante La Merced y llegada a Plaza Mayor. Mira por encima de los comercios en cada tramo.",
+      "en": "Split the walk into three legs: leave San Martín, stop outside La Merced, then arrive at Plaza Mayor. Look above the shops along each leg.",
+      "zh": "可把步行分三段：从圣马丁广场出发、在仁慈圣母圣殿前停留、抵达武器广场。各段都可抬头观察商铺上方保留的老立面。",
+      "qu": "Plaza San Martínmanta qallariy. La Mercedpi sayay, chaymanta Plaza Mayorman riy. Qhatukunapa hanaqninta qaway."
+    }
+  },
+  {
+    "slug": "plaza-francia",
+    "name": "Plaza Francia, Lima",
+    "address": "Jirón Rufino Torrico 1164",
+    "access": "public",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/plaza-francia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_Francia_con_la_Iglesia_La_Recoleta.jpg",
+      "author": "Wasiwatana",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Plaza Francia, Lima",
+      "en": "Plaza Francia",
+      "zh": "法国广场",
+      "qu": "Plaza Francia, Lima"
+    },
+    "description": {
+      "es": "El espacio conocido antes como plazuela de la Recoleta reúne la iglesia del Sagrado Corazón y el monumento a la Libertad.",
+      "en": "Formerly the Recoleta square, this space pairs the Sacred Heart church with a monument to Liberty.",
+      "zh": "广场原称雷科莱塔小广场，汇集圣心教堂与自由纪念像。",
+      "qu": "Kay plazata ñawpaqtaqa Recoleta nirqanku. Much’ay wasipa qayllanpi Libertad saywacha kachkan."
+    },
+    "detail": {
+      "es": "Es un desvío corto desde San Martín por el lado de Camaná.",
+      "en": "It makes a short detour from San Martín on the Camaná side.",
+      "zh": "沿卡马纳街一侧从圣马丁广场过去只需短程绕行。",
+      "qu": "Camaná ñanmanta hamuspa much’ay wasita saywachatawan qaway."
+    },
+    "next": "parque-exposicion",
+    "photo": {
+      "es": "Desde la plaza, encuadra el monumento en primer plano y la iglesia detrás.",
+      "en": "From the square, frame the monument in front of the church.",
+      "zh": "从广场把纪念像置于前景，教堂置于后景。",
+      "qu": "Plazamanta saywachata much’ay wasitawan siqiy."
+    },
+    "kind": "square",
+    "visitTip": {
+      "es": "Entra a la plaza desde Rufino Torrico y busca un punto que reúna monumento e iglesia. Deja la visita interior al templo como parada opcional.",
+      "en": "Enter from Rufino Torrico and find a view that includes monument and church. Treat the church interior as an optional stop.",
+      "zh": "从鲁菲诺·托里科街进入广场，寻找能同时看到雕像和教堂的位置。教堂室内可作为独立的可选停留。",
+      "qu": "Rufino Torricomanta plazaman yaykuy. Saywachata much’ay wasitawan qaway."
+    }
+  },
+  {
+    "slug": "mali",
+    "name": "Museo de Arte de Lima (MALI)",
+    "address": "Paseo Colón 125, Puerta 3A, Parque de la Exposición",
+    "access": "venue",
+    "manager": "mali",
+    "image": {
+      "src": "/nearby/mali.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fachada_del_Museo_de_Arte_de_Lima_-_Por_Nina_Gavancho.jpg",
+      "author": "Nina Gavancho Sarmiento",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Museo de Arte de Lima (MALI)",
+      "en": "Lima Art Museum",
+      "zh": "利马艺术博物馆",
+      "qu": "Museo de Arte de Lima (MALI)"
+    },
+    "description": {
+      "es": "El MALI ocupa el Palacio de la Exposición, levantado para la exposición de 1872.",
+      "en": "MALI occupies the Exhibition Palace built for the 1872 exhibition.",
+      "zh": "馆址为1872年博览会兴建的展览宫，在共和时期展馆中呈现秘鲁艺术的多个历史阶段。",
+      "qu": "1872 watapa hatun qawachikuyninpaq kay wasita rurarqanku. Kunanqa Piruwpa rurayninkunata qawachinku."
+    },
+    "detail": {
+      "es": "La colección permite seguir largos periodos del arte peruano dentro de un pabellón republicano.",
+      "en": "The collection puts long periods of Peruvian art inside a republican-era pavilion.",
+      "zh": "",
+      "qu": "Ñawpa Exposición wasipi Piruwpa unay rurayninkunata riqsiy."
+    },
+    "next": "parque-exposicion",
+    "photo": {
+      "es": "Desde el jardín, retrocede para incluir los extremos del Palacio de la Exposición.",
+      "en": "Step back into the garden to include both ends of the Exhibition Palace.",
+      "zh": "在园地中后退，让展览宫两端完整入镜。",
+      "qu": "Mallki kanchamanta Exposición wasita siqiy."
+    },
+    "kind": "museum",
+    "visitTip": {
+      "es": "Empieza por el acceso peatonal 3A y decide si dedicas la visita a la colección, a una muestra temporal o a ambas. Antes de entrar, observa el edificio desde los jardines.",
+      "en": "Use pedestrian Gate 3A and decide whether to focus on the collection, a temporary show or both. Look back at the building from the gardens before entering.",
+      "zh": "步行从 3A 门进园，先决定看常设馆藏、临展或两者。入馆前从花园回看整座展览宫。",
+      "qu": "3A punkumanta yaykuy. Museo qawachikuyninta akllay. Kanchamanta Exposición wasita qaway."
+    }
+  },
+  {
+    "slug": "parque-exposicion",
+    "name": "Parque de la Exposición, Lima",
+    "address": "Avenida 28 de Julio, esquina con Paseo Colón",
+    "access": "public",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/parque-exposicion.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:ENTRADA_DEL_PARQUE_DE_LA_EXPOSICI%C3%93N_%28Lima%29.jpg",
+      "author": "ScienHead",
+      "license": "CC BY-SA 4.0"
+    },
+    "titles": {
+      "es": "Parque de la Exposición, Lima",
+      "en": "Parque de la Exposición",
+      "zh": "利马博览公园",
+      "qu": "Parque de la Exposición, Lima"
+    },
+    "description": {
+      "es": "El parque conserva la memoria de la exposición de 1872.",
+      "en": "The park recalls Lima’s 1872 exhibition.",
+      "zh": "公园保留了1872年博览会的历史线索。",
+      "qu": "1872 watapa qawachikuyninmanta yuyariykunata kay kancha waqaychan."
+    },
+    "detail": {
+      "es": "Sus senderos vinculan el palacio de exposiciones con pabellones y áreas ajardinadas.",
+      "en": "Walkways link the Exhibition Palace to pavilions and planted areas.",
+      "zh": "步道把展览宫、亭阁与园林空间连在一起。",
+      "qu": "Ñankunata qatipaspa Exposición wasimanta mallki kanchakunaman riy."
+    },
+    "next": "mali",
+    "photo": {
+      "es": "Desde los senderos, utiliza los árboles para enmarcar el Palacio de la Exposición.",
+      "en": "Use the trees along the paths to frame the Exhibition Palace.",
+      "zh": "从步道利用两侧树木为展览宫取框。",
+      "qu": "Ñanmanta mallkikunawan Exposición wasita siqiy."
+    },
+    "kind": "park",
+    "visitTip": {
+      "es": "Recorre primero los senderos entre pabellones y jardines. Si añades el MALI, reserva un bloque aparte y comprueba el acceso de la Puerta 3A.",
+      "en": "Walk the paths between the pavilions and gardens first. If you add MALI, allow a separate block and check entry through Gate 3A.",
+      "zh": "先沿园路在亭阁和园地之间散步。若加入利马艺术博物馆，单独预留参观时间并核对 3A 门。",
+      "qu": "Kanchakunapa chaki ñankunata puriy. MALIta yapaspa, 3A punkuta qaway."
+    }
+  },
+  {
+    "slug": "museo-metropolitano",
+    "name": "Museo Metropolitano de Lima",
+    "address": "Avenida 28 de Julio 800",
+    "access": "venue",
+    "manager": "city",
+    "image": {
+      "src": "/nearby/museo-metropolitano.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fachada_Ministerio_de_Fomento.jpg",
+      "author": "",
+      "license": "Public domain"
+    },
+    "titles": {
+      "es": "Museo Metropolitano de Lima",
+      "en": "Metropolitan Museum of Lima",
+      "zh": "利马都会博物馆",
+      "qu": "Museo Metropolitano de Lima"
+    },
+    "description": {
+      "es": "El museo ocupa el edificio que sirvió al Ministerio de Fomento.",
+      "en": "The museum occupies a former Ministry of Development building.",
+      "zh": "博物馆使用原发展部大楼。",
+      "qu": "Kaypi ñawpaq Ministerio de Fomento llamk’arqan. Kunanqa Lima llaqtapa ñawpa kawsayninta qawachinku."
+    },
+    "detail": {
+      "es": "Sus salas ofrecen un recorrido audiovisual sobre la historia de Lima cuando el programa está disponible.",
+      "en": "Its rooms offer an audiovisual account of Lima’s history when the programme is running.",
+      "zh": "馆方开放相应场次时，可通过影音展览了解利马历史。",
+      "qu": "Lima llaqtapa ñawpa kawsayninta uyarispayki qaway."
+    },
+    "next": "parque-exposicion",
+    "photo": {
+      "es": "Desde el lado del parque, encuentra una vista de la entrada de 28 de Julio sin invadir la calzada.",
+      "en": "From the park side, look for a view of the 28 de Julio entrance while staying clear of the road.",
+      "zh": "从公园一侧取景拍摄七月二十八日大道入口，避开车道。",
+      "qu": "Kanchamanta 28 de Julio punkuta siqiy."
+    },
+    "kind": "museum",
+    "visitTip": {
+      "es": "Antes de fijar el día, confirma si hay funciones audiovisuales. Una parada exterior puede combinarse con el Parque de la Exposición si no hay sesión.",
+      "en": "Before choosing a date, confirm whether audiovisual sessions are running. If there is no session, pair an exterior stop with the Exhibition Park.",
+      "zh": "定日期前先核实当天是否有影音场次。若无开放场次，可把外观停留与博览公园合并安排。",
+      "qu": "P’unchayta manaraq akllaspa, uyarina qawanakuna kasqanta tapuy. Mana kaptin, hawanta qawaspa kanchaman riy."
+    }
+  },
+  {
+    "slug": "parque-reserva",
+    "name": "Circuito Mágico del Agua, Parque de la Reserva, Lima",
+    "address": "Jirón Madre de Dios, cuadra 3",
+    "access": "venue",
+    "manager": "water",
+    "image": {
+      "src": "/nearby/parque-reserva.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_de_La_Reserva%2C_Lima_-_Peru_-_panoramio_%283%29.jpg",
+      "author": "Paulo JC Nogueira",
+      "license": "CC BY-SA 3.0"
+    },
+    "titles": {
+      "es": "Circuito Mágico del Agua, Parque de la Reserva, Lima",
+      "en": "Parque de la Reserva",
+      "zh": "利马水之魔幻公园",
+      "qu": "Circuito Mágico del Agua, Parque de la Reserva, Lima"
+    },
+    "description": {
+      "es": "El parque conmemorativo se transformó con el Circuito Mágico del Agua.",
+      "en": "The memorial park took on a new role with the Magic Water Circuit.",
+      "zh": "纪念公园因魔幻水之环增添新用途。",
+      "qu": "Kay kanchapi Circuito Mágico del Agua nisqa phawaq yakukuna kachkan."
+    },
+    "detail": {
+      "es": "Las fuentes activas y la iluminación nocturna concentran la visita en torno a los estanques.",
+      "en": "Active fountains and evening lighting centre the visit around the basins.",
+      "zh": "喷泉运行与夜间灯光使游览集中在各处水池。",
+      "qu": "Tuta k’anchaywan phawaq yakukunata qaway."
+    },
+    "next": "parque-exposicion",
+    "photo": {
+      "es": "Al anochecer, alinea las fuentes iluminadas desde un extremo del paseo cuando el circuito esté activo.",
+      "en": "After dusk, line up the illuminated fountains from one end of the walk while the circuit is running.",
+      "zh": "水景开放时，可在天黑后从步道一端把亮灯的喷泉排入画面。",
+      "qu": "Tutamanta k’anchaq pukyukunata ñan tukukuyninmanta siqiy."
+    },
+    "kind": "park",
+    "visitTip": {
+      "es": "Entra por Madre de Dios si te diriges al circuito. Recorre las fuentes antes de elegir un punto para el espectáculo en la Fuente de la Fantasía.",
+      "en": "Enter from Madre de Dios for the circuit. Walk among the fountains first, then choose a spot for the show at the Fantasy Fountain.",
+      "zh": "前往水景线路可从马德雷德迪奥斯街一带入园。先走看各处喷泉，再到幻想喷泉选位置观看表演。",
+      "qu": "Madre de Dios ñanmanta yaykuy. Pukyukunata muyuy, chaymanta Fuente de la Fantasíapi qawanaykita maskay."
+    }
+  }
+]

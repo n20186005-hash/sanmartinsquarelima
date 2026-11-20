@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { locationLinks, nearbyLabels, nearbyPlaces, visitorPlanning } from "@/i18n/nearby";
 import { siteUrl, walkAlternates, walks, walkLocales, walkPath, type WalkLocale } from "@/i18n/walk";
 
 const directions = "https://www.google.com/maps/dir/?api=1&origin=Plaza+San+Mart%C3%ADn%2C+Lima&destination=Plaza+Mayor+de+Lima&travelmode=walking";
@@ -9,7 +10,7 @@ const source = "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.a
 async function getWalk(params: Promise<{ locale: string }>) {
   const { locale } = await params;
   if (!walkLocales.includes(locale as WalkLocale)) notFound();
-  return { locale, walk: walks[locale as WalkLocale] };
+  return { locale: locale as WalkLocale, walk: walks[locale as WalkLocale] };
 }
 
 type Props = { params: Promise<{ locale: string }> };
@@ -28,20 +29,46 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function WalkPage({ params }: Props) {
   const { locale, walk } = await getWalk(params);
+  const labels = nearbyLabels[locale];
+  const stops = nearbyPlaces.filter(({ slug }) => ["plaza-mayor", "jiron-union"].includes(slug));
   return (
     <main className="section" lang={locale} style={{ maxWidth: "55rem", margin: "auto", padding: "3rem 1.25rem" }}>
       <Link href={`/${locale}`}>← {walk.back}</Link>
       <h1 className="section-title">{walk.title}</h1>
       <p>{walk.intro}</p>
+      <section className="info-card nearby-panel">
+        <h2>{labels.about}</h2>
+        <p>{visitorPlanning[locale].walkManagement}</p>
+      </section>
       <p>{walk.history}</p>
       <h2 className="section-title">{walk.route}</h2>
       <ol style={{ listStyle: "decimal", paddingInlineStart: "1.5rem" }}>
         {walk.steps.map((step) => <li key={step} style={{ marginBottom: "1rem" }}>{step}</li>)}
       </ol>
       <p><a href={directions}>{walk.map}</a></p>
+      <section className="nearby-panel">
+        <h2>{labels.info}</h2>
+        <ul>{stops.map((stop) => (
+          <li key={stop.slug}>
+            <Link href={`/${locale}/guide/${stop.slug}`}>{stop.titles[locale]}</Link>
+            <span lang="es"> · {stop.address} · </span>
+            <a href={locationLinks(stop).map}>{labels.rating}</a>
+          </li>
+        ))}</ul>
+      </section>
       <h2>{walk.question}</h2>
       <p>{walk.answer}</p>
       <p><a href={source}>{walk.source}</a></p>
+      <section className="nearby-panel nearby-index">
+        <h2>{labels.nearby}</h2>
+        <ul className="nearby-grid">
+          {nearbyPlaces.filter(({ slug }) => ["la-merced", "catedral", "palacio-gobierno", "casa-aliaga"].includes(slug)).map((place) => (
+            <li key={place.slug}>
+              <Link className="info-card" href={`/${locale}/guide/${place.slug}`}>{place.titles[locale]}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
       <nav aria-label="Language">
         {Object.entries({ es: "Español", en: "English", zh: "中文", qu: "Runasimi" }).map(([language, name]) => (
           <Link key={language} href={`/${language}${walkPath}`} hrefLang={language} lang={language} style={{ marginInlineEnd: "1rem" }}>{name}</Link>

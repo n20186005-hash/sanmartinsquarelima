@@ -3,6 +3,7 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  experimental: { cpus: 2 },
   outputFileTracingRoot: path.join(__dirname, "./"),
   turbopack: {},
   webpack: (config) => {
