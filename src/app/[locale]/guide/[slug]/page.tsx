@@ -10,11 +10,7 @@ import { siteUrl, walkAlternates, walkLocales, walkPath, type WalkLocale } from 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 const languages = { es: "Español", en: "English", zh: "中文", qu: "Runasimi" };
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return nearbyPlaces.map(({ slug }) => ({ slug }));
-}
+export const dynamic = "force-dynamic";
 
 async function getPlace(params: Props["params"]) {
   const { locale: language, slug } = await params;
