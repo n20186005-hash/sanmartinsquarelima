@@ -1,3 +1,4 @@
+import { TravelPage } from "@/components/TravelPage";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -32,9 +33,10 @@ export default async function WalkPage({ params }: Props) {
   const labels = nearbyLabels[locale];
   const stops = nearbyPlaces.filter(({ slug }) => ["plaza-mayor", "jiron-union"].includes(slug));
   return (
-    <main className="section" lang={locale} style={{ maxWidth: "55rem", margin: "auto", padding: "3rem 1.25rem" }}>
-      <Link href={`/${locale}`}>← {walk.back}</Link>
-      <h1 className="section-title">{walk.title}</h1>
+    <TravelPage locale={locale} path={walkPath} title={walk.title}
+      image="/nearby/plaza-mayor.jpg" tagline={walk.route}
+      actions={<a className="hero-cta" href={directions}>{walk.map}</a>}>
+      <Link href={`/${locale}#nearby`}>← {walk.back}</Link>
       <p>{walk.intro}</p>
       <section className="info-card nearby-panel">
         <h2>{labels.about}</h2>
@@ -69,11 +71,6 @@ export default async function WalkPage({ params }: Props) {
           ))}
         </ul>
       </section>
-      <nav aria-label="Language">
-        {Object.entries({ es: "Español", en: "English", zh: "中文", qu: "Runasimi" }).map(([language, name]) => (
-          <Link key={language} href={`/${language}${walkPath}`} hrefLang={language} lang={language} style={{ marginInlineEnd: "1rem" }}>{name}</Link>
-        ))}
-      </nav>
-    </main>
+    </TravelPage>
   );
 }

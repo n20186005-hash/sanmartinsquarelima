@@ -18,7 +18,7 @@ export function StructuredData() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.3",
-      "reviewCount": "51442"
+      "reviewCount": "51984"
     },
     "geo": {
       "@type": "GeoCoordinates",

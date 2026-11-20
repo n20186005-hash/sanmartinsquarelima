@@ -5,8 +5,9 @@ import Link from "next/link";
 import { nearbyLabels, nearbyPath, nearbyPlaces } from "@/i18n/nearby";
 import { walks, walkPath } from "@/i18n/walk";
 import { LangProvider, useLang } from "@/components/LangProvider";
-import { useTheme } from "next-themes";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SiteNav } from "@/components/SiteNav";
+import { SiteFooter } from "@/components/SiteFooter";
+import { interfaceCopy, reviewText } from "@/i18n/interface";
 import { WeatherWidget } from "@/components/WeatherWidget";
 import { StructuredData } from "@/components/StructuredData";
 import galleryImagesData from "@/gallery-data.json";
@@ -14,12 +15,12 @@ import galleryImagesData from "@/gallery-data.json";
 const MAPS_URL = "https://maps.app.goo.gl/o9T5WR5KrPBuhN1x9";
 
 const GOOGLE_REVIEWS = [
-  { name: "María G.", avatar: "MG", rating: 5, date: "2024-12-15", text: "Un lugar histórico muy importante en Lima. La estatua ecuestre de San Martín es impresionante y la plaza tiene una arquitectura hermosa." },
-  { name: "John S.", avatar: "JS", rating: 4, date: "2024-11-20", text: "Beautiful historic square in Lima. The San Martín statue is majestic. Great place to start exploring the historic center of Lima." },
-  { name: "Carlos R.", avatar: "CR", rating: 5, date: "2024-10-10", text: " Plaza San Martín es un lugar emblemático de Lima. Muy cerca de la Plaza de Armas. Ideal para caminar y conocer la historia." },
-  { name: "李明", avatar: "李", rating: 4, date: "2024-09-15", text: "圣马丁广场是利马历史中心的重要景点。圣马丁将军的雕像很壮观，周围有很多历史建筑可以参观。" },
-  { name: "Ana P.", avatar: "AP", rating: 5, date: "2024-08-05", text: "Hermoso lugar histórico. La plaza está muy bien ubicada en el centro de Lima. Perfecto para tomar fotos y conocer la historia." },
-  { name: "Robert W.", avatar: "RW", rating: 4, date: "2024-07-20", text: "Nice historic square with the San Martín monument. Good starting point for exploring Lima's historic center. Within walking distance to Plaza de Armas." }
+  { name: "María G.", avatar: "MG", rating: 5, date: "2024-12-15" },
+  { name: "John S.", avatar: "JS", rating: 4, date: "2024-11-20" },
+  { name: "Carlos R.", avatar: "CR", rating: 5, date: "2024-10-10" },
+  { name: "李明", avatar: "李", rating: 4, date: "2024-09-15" },
+  { name: "Ana P.", avatar: "AP", rating: 5, date: "2024-08-05" },
+  { name: "Robert W.", avatar: "RW", rating: 4, date: "2024-07-20" }
 ];
 
 function ScrollReveal({ children, className = "" }: { children: React.ReactNode; className?: string }) {
@@ -35,89 +36,6 @@ function ScrollReveal({ children, className = "" }: { children: React.ReactNode;
     return () => obs.disconnect();
   }, []);
   return <div ref={ref} className={`reveal ${className}`}>{children}</div>;
-}
-
-function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return <div style={{ width: "24px", height: "24px" }} />;
-
-  return (
-    <button
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="theme-toggle-btn"
-      aria-label="Toggle theme"
-      style={{
-        background: "none",
-        border: "none",
-        color: "#fff",
-        cursor: "pointer",
-        padding: "0.25rem",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      {theme === "dark" ? (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="12" r="5" />
-          <line x1="12" y1="1" x2="12" y2="3" />
-          <line x1="12" y1="21" x2="12" y2="23" />
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-          <line x1="1" y1="12" x2="3" y2="12" />
-          <line x1="21" y1="12" x2="23" y2="12" />
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-        </svg>
-      ) : (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-        </svg>
-      )}
-    </button>
-  );
-}
-
-function Nav() {
-  const { t, locale } = useLang();
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 80);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-  return (
-    <nav className={`site-nav ${scrolled ? "scrolled" : ""}`}>
-      <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
-        <span style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 700, color: "#fff" }}>
-          Plaza San Martín
-        </span>
-      </div>
-      <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
-        <div className="nav-links">
-          <a href="#history">{t.nav.history}</a>
-          <a href="#architecture">{t.nav.architecture}</a>
-          <a href="#monuments">{t.nav.monuments}</a>
-          <a href="#visiting">{t.nav.visiting}</a>
-          <a href="#transportation">{t.nav.transportation}</a>
-          <a href="#gallery">{t.nav.gallery}</a>
-          <a href="#reviews">{t.nav.reviews}</a>
-          <a href="#nearby">{nearbyLabels[locale].nearby}</a>
-          <a href="#faq">{t.nav.faq}</a>
-          <a href="#location">{t.nav.location}</a>
-          <Link href={`/${locale}${walkPath}`}>{walks[locale].route}</Link>
-        </div>
-        <ThemeToggle />
-        <LanguageSwitcher />
-      </div>
-    </nav>
-  );
 }
 
 function Hero() {
@@ -149,7 +67,7 @@ function Hero() {
         <div className="hero-meta">
           <div className="hero-rating">4.3</div>
           <div className="hero-stars">★ ★ ★ ★</div>
-          <div className="hero-reviews">51,442 {t.rating.reviews} · {t.rating.source}</div>
+          <div className="hero-reviews">51,984 {t.rating.reviews} · {t.rating.source}</div>
         </div>
       </a>
     </section>
@@ -300,13 +218,13 @@ function TimeSpaceContrast() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
           <div>
             <div style={{ borderRadius: "8px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.1)", marginBottom: "1rem" }}>
-              <img src="/gallery/plaza-san-martin (2).jpg" alt="Plaza San Martín in 1920s" style={{ width: "100%", height: "auto", display: "block", filter: "grayscale(100%) sepia(20%)" }} />
+              <img src="/gallery/plaza-san-martin (2).jpg" alt={t.contrast.before} style={{ width: "100%", height: "auto", display: "block", filter: "grayscale(100%) sepia(20%)" }} />
             </div>
             <p style={{ textAlign: "center", fontSize: "0.95rem", color: "var(--color-earth-soft)", fontWeight: 600 }}>{t.contrast.before}</p>
           </div>
           <div>
             <div style={{ borderRadius: "8px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.1)", marginBottom: "1rem" }}>
-              <img src="/gallery/plaza-san-martin (1).jpg" alt="Plaza San Martín Today" style={{ width: "100%", height: "auto", display: "block" }} />
+              <img src="/gallery/plaza-san-martin (1).jpg" alt={t.contrast.after} style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
             <p style={{ textAlign: "center", fontSize: "0.95rem", color: "var(--color-earth-soft)", fontWeight: 600 }}>{t.contrast.after}</p>
           </div>
@@ -513,10 +431,10 @@ function Gallery() {
         <div className="gallery-grid">
           {galleryImages.map((item, i) => (
             <div className="gallery-item" key={i} onClick={() => setLightboxIndex(i)}>
-              <img src={item.src} alt={item.caption?.[locale] || `Gallery image ${i + 1}`} loading="lazy" />
+              <img src={item.src} alt={`${interfaceCopy[locale].photo} ${i + 1}`} loading="lazy" />
               {item.caption && (
                 <div className="gallery-caption-overlay">
-                  <p className="gallery-caption-text">{item.caption[locale] || item.caption.en || ""}</p>
+                  <p className="gallery-caption-text">{item.caption[locale] || ""}</p>
                 </div>
               )}
             </div>
@@ -535,10 +453,10 @@ function Gallery() {
       </ScrollReveal>
       {lightboxIndex !== null && galleryImages.length > 0 && (
         <div className="lightbox" onClick={() => setLightboxIndex(null)}>
-          <button className="lightbox-close" onClick={() => setLightboxIndex(null)}>×</button>
-          <button className="lightbox-prev" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex - 1 + galleryImages.length) % galleryImages.length); }}>‹</button>
-          <img src={galleryImages[lightboxIndex].src} alt={currentCaption || `Gallery image ${lightboxIndex + 1}`} className="lightbox-img" />
-          <button className="lightbox-next" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex + 1) % galleryImages.length); }}>›</button>
+          <button aria-label={interfaceCopy[locale].close} className="lightbox-close" onClick={() => setLightboxIndex(null)}>×</button>
+          <button aria-label={interfaceCopy[locale].prev} className="lightbox-prev" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex - 1 + galleryImages.length) % galleryImages.length); }}>‹</button>
+          <img src={galleryImages[lightboxIndex].src} alt={`${interfaceCopy[locale].photo} ${lightboxIndex + 1}`} className="lightbox-img" />
+          <button aria-label={interfaceCopy[locale].next} className="lightbox-next" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex + 1) % galleryImages.length); }}>›</button>
           {(currentCaption || currentStory) && (
             <div className="lightbox-info">
               {currentCaption && <p className="lightbox-caption">{currentCaption}</p>}
@@ -582,7 +500,7 @@ function Reviews() {
                   {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
                 </div>
               </div>
-              <p className="review-text">{review.text}</p>
+              <p className="review-text">{reviewText[locale][i]}</p>
               <div className="review-source">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#4285F4"/>
@@ -699,7 +617,7 @@ function Location() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Plaza San Martín Location Map"
+              title={t.location.title}
             />
           </div>
           <div className="location-info">
@@ -735,46 +653,13 @@ function Nearby() {
   );
 }
 
-function Footer() {
-  const { t, locale } = useLang();
-  return (
-    <footer className="site-footer">
-      <Link href={`/${locale}${walkPath}`}>{walks[locale].title}</Link>
-      <div className="footer-links">
-        <p className="footer-links-title">{t.footer.linksTitle}</p>
-        <div className="footer-links-grid">
-          {t.footer.links.map((link: { name: string; url: string }, i: number) => (
-            <a key={i} href={link.url} target="_blank" rel="noopener noreferrer" className="footer-link-item">
-              {link.name}
-            </a>
-          ))}
-        </div>
-      </div>
-      <div className="footer-legal" style={{ maxWidth: "1100px", margin: "0 auto", padding: "1rem 2rem 0", textAlign: "center" }}>
-        <Link href="/privacy" style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
-          Privacy Policy
-        </Link>
-        <Link href="/terms" style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
-          Terms of Service
-        </Link>
-        <Link href="/cookies" style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem" }}>
-          Cookie Settings
-        </Link>
-      </div>
-      <p className="footer-text" style={{ marginTop: "2rem", fontSize: "0.9rem", fontWeight: 600, color: "var(--color-gold)" }}>
-        {t.footer.callToAction}
-      </p>
-      <p className="footer-text" style={{ marginTop: "1rem", whiteSpace: "pre-line" }}>{t.footer.text}</p>
-    </footer>
-  );
-}
-
 export default function Home(props: { params: Promise<{ locale: string }> }) {
   const params = React.use(props.params);
+  const locale = params.locale as "en" | "zh" | "es" | "qu";
   return (
-    <LangProvider initialLocale={params.locale as "en" | "zh" | "es" | "qu"}>
+    <LangProvider key={locale} initialLocale={locale}>
       <StructuredData />
-      <Nav />
+      <SiteNav locale={locale} />
       <Hero />
       <History />
       <Architecture />
@@ -787,7 +672,7 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
       <Nearby />
       <FAQ />
       <Location />
-      <Footer />
+      <SiteFooter locale={locale} />
     </LangProvider>
   );
 }

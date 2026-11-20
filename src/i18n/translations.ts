@@ -342,60 +342,60 @@ export const translations: Record<Locale, Translations> = {
   },
   qu: {
     nav: { history: "Ñawpaq", architecture: "Ruwasqa", monuments: "Yuyaykuna", visiting: "Puriy", transportation: "Chaykamuy", gallery: "Rikuy", reviews: "Niykuna", faq: "Tapuykuna", location: "Maypi" },
-    hero: { tags: ["UNESCO", "Free", "Ñawpaq"], tagline: "Lima, Piruw · Ñawpaq Llaqta", title: "Plaza San Martín", subtitle: "Plaza San Martín · San Martin Plaza · Libertad Yupay", cta: "Rikuy" },
+    hero: { tags: ["UNESCO", "Mana qullqiyuq", "Ñawpaq"], tagline: "Lima, Piruw · Ñawpaq Llaqta", title: "Plaza San Martín", subtitle: "Piruwpa kikin kamachiyninta yuyanapaq plaza", cta: "Rikuy" },
     rating: { reviews: "niykuna", source: "Google niykuna" },
     history: {
       title: "Ñawpaq Kawsay",
-      intro: "Plaza San Martín, Lima, Piruwpi. San Martin Plaza. José de San Martín libertador. UNESCO Patrimonio Mundial.\n\n**Perú libertad 100 wata**: 1921 watapi ruwasqa. José de San Martín libertador."
+      intro: "Plaza San Martínqa Piruw suyu Lima llaqtapi kachkan. José de San Martínta yuyanapaqmi. Lima ñawpa llaqtata UNESCO waqaychanapaq suticharqan.\n\n**Piruwpa kikin kamachiyninpa 100 wataynin**: 1921 watapi kichakurqan, José de San Martínpa rurayninta yuyanapaq."
     },
     curiosities: {
       title: "Pakasqa Yachay: Llama willakuy",
-      content: "Escultor 'llama' nisqata mana yacharqan. Llama animal, mana k'ancha. Kayqa muyuriq willakuy. San Martin caballowan urapi."
+      content: "Willakuy nisqanman hina, saywacha ruraqqa llama nisqata huk hinata hamut’arqan. Kawallu saywachapa urayninpi llamata qaway."
     },
     architecture: {
       title: "Imayna ruwasqa",
-      intro: "Plaza San Martín allin ruwasqa. Europa estilo. San Martin rikch'an.",
+      intro: "Plaza San Martínpa muyuriq wasinkunapi Europa wasikuna hina ruwasqata qaway.",
       specs: {
-        structure: { title: "Plaza Sayaynin", content: "Plaza San Martín, Lima centro. Europa estilo. Allin ruwasqa." },
-        design: { title: "Gran Hotel Bolívar", content: "Historico hotel. 1924 watapi ruwasqa. Lima centro." },
-        optics: { title: "Teatro Colón", content: "Teatro. 1914 watapi ruwasqa. Cultura centro." }
+        structure: { title: "Plaza Sayaynin", content: "Lima chawpinpi kachkan. Muyuriq wasinkunapa uyankuna Europamanta rurayta rikuchinku." },
+        design: { title: "Gran Hotel Bolívar", content: "Lima chawpinpi ñawpa puñuna wasi. 1924 watapi kichakurqan." },
+        optics: { title: "Teatro Colón", content: "1914 watapi kichasqa ñawpa taki wasi." }
       },
       plaque: {
         title: "Willakuykuna",
         items: [
           { label: "Suti", value: "Plaza San Martín" },
           { label: "Wata", value: "1921" },
-          { label: "Kichay P'unchaw", value: "Julio 27, 1921" },
-          { label: "Estilo", value: "Neocolonial, Francés" }
+          { label: "Kichay P'unchaw", value: "1921 watapa qanchis killanpi 27 p’unchay" },
+          { label: "Imayna ruray", value: "Ñawpa colonia rurayman hina, Francia wasikunaman rikch’akuq" }
         ]
       }
     },
     monuments: {
       title: "Yuyaykuna",
-      intro: "San Martín yuyanapaq. Política, social centro:",
+      intro: "Kay plazapi San Martínta yuyarinku. Llaqtamasi huñunakuykunapas kaypi kan.",
       items: [
-        { name: "San Martín General Monumento", description: "José de San Martín, Perú libertador. 1821 watapi libertad nisqa. Mariano Benlliure ruwarqa. Bronce." },
-        { name: "Madre Patria", description: "San Martin caballowan urapi. Llama animal kachkan." }
+        { name: "José de San Martínpa saywachan", description: "José de San Martínqa 1821 watapi Piruwpa kikin kamachiyninta willarqan. Mariano Benlliure anta saywachata ruwarqan." },
+        { name: "Madre Patria", description: "San Martínpa kawallu saywachanpa urayninpi llamata qaway." }
       ]
     },
     contrast: {
-      title: "Ñawpaq vs Kunan",
-      intro: "Plaza San Martín ñawpaq vs kunan.",
-      before: "1920s: Ñawpaq Plaza",
+      title: "Ñawpaqta, kunanpas",
+      intro: "Ñawpa siqita kunan siqiwan tupachiy.",
+      before: "1920 watakunapi plaza",
       after: "Kunan: Plaza San Martín"
     },
     visiting: {
       title: "Puriy",
       intro: "Plaza San Martín purinapaq allin.",
-      hours: { title: "Punchaw", content: "24 horas", note: "P'unchay puriy allin." },
-      price: { title: "Qullqi", content: "Free", note: "Mana qullqiyuq." },
-      duration: { title: "Hayk'aq", content: "30 minuto - 1 hora", note: "Rikuy, puriy." },
-      tips: { title: "Yachay", items: ["P'unchay puriy, intita qhaway", "Zapatos allin", "Cámara", "Plaza de Armas puriy"] }
+      hours: { title: "Punchaw", content: "P’unchay tutapas kichasqa", note: "P'unchay puriy allin." },
+      price: { title: "Qullqi", content: "Mana qullqiyuq", note: "Mana qullqiyuq." },
+      duration: { title: "Hayk'aq", content: "30 chininimanta 1 pachakama", note: "Rikuy, puriy." },
+      tips: { title: "Yachay", items: ["P'unchay puriy, intita qhaway", "Purinapaq allin sapatukuna", "Siqi hurquna", "Plaza de Armas puriy"] }
     },
     transportation: {
       title: "Chaykamuy",
       airport: { title: "Lima-manta", content: "Lima-man antawan hamuy.", options: [
-        { name: "Taxi (Allin)", price: "50 - 60 soles", time: "45 min", steps: ["Lima-manta oficial taxi (Taxi Green)"] }
+        { name: "Taxi (Allin)", price: "50 - 60 soles", time: "45 min", steps: ["Anta sayanamanta chiqap taxita akllay"] }
       ]},
       publicTransport: {
         title: "Metropolitano",
@@ -407,12 +407,12 @@ export const translations: Record<Locale, Translations> = {
             steps: [
               "Metropolitano Ruta A, Ruta C",
               "Estación Colmena",
-              "2 blocks puriy"
+              "Iskay kuadrata chakiwan puriy"
             ]
           }
         ]
       },
-      city: { title: "🚶 Lima Centro", content: "Lima centro-manta.", steps: ["Plaza de Armas-manta puriy 10 min", "Jirón de la Unión puriy"] },
+      city: { title: "🚶 Lima llaqtapa chawpin", content: "Lima llaqtapa chawpinmanta chakiwan riy.", steps: ["Plaza de Armas-manta puriy 10 min", "Jirón de la Unión puriy"] },
       tips: { title: "Yachay", items: ["P'unchay puriy", "Metropolitano allin", "Uber allin"] }
     },
     reviews: { 
@@ -422,22 +422,22 @@ export const translations: Record<Locale, Translations> = {
       nearbyTitle: "Rikunapaq",
       nearbyIntro: "Huk kitikuna:",
       nearbyItems: [
-        { name: "Plaza de Armas", description: "Lima centro. Catedral." },
-        { name: "San Francisco", description: "Historico convento." }
+        { name: "Plaza de Armas", description: "Lima llaqtapa ñawpa chawpin. Hatun much’ay wasi qayllanpi." },
+        { name: "San Francisco", description: "Ñawpa much’ay wasi, uku p’ampaykunayuq." }
       ]
     },
     gallery: { title: "Rikuy", viewMore: "Google Maps nisqapi astawan rikuy" },
     faq: { title: "Tapuykuna", subtitle: "Yachay", items: [
-      { question: "Hayk'aq kachkan?", answer: "24 horas. P'unchay puriy allin." },
-      { question: "Qullqi paganan chá?", answer: "Mana. Free. Mana qullqiyuq." },
-      { question: "Piwan sutichasqa?", answer: "José de San Martín. Perú libertador." }
+      { question: "Hayk'aq kachkan?", answer: "P’unchay tutapas kichasqa. P'unchay puriy allin." },
+      { question: "Qullqi paganan chá?", answer: "Mana qullqiwanchu yaykunki." },
+      { question: "Piwan sutichasqa?", answer: "José de San Martínpa sutinmi. Paymi Piruwpa kikin kamachiyninta willarqan." }
     ]},
     location: { title: "Maypipas", address: "Av. Nicolás de Piérola\nLima 15001\nPerú", openMaps: "Google Maps" },
-    footer: { callToAction: "Plaza San Martín cuiday.", text: "© 2026 Plaza San Martín.", made: "Kayqa puriy yachay.", linksTitle: "Imakunata", links: [
+    footer: { callToAction: "Plaza San Martínta waqaychay.", text: "© 2026 Plaza San Martín.", made: "Kayqa puriy yachay.", linksTitle: "Imakunata", links: [
       { name: "MINCETUR", url: "https://www.gob.pe/mincetur" },
       { name: "Peru Travel - Lima", url: "https://www.peru.travel/es/destinos/lima" },
-      { name: "Lima Municipality", url: "https://www.gob.pe/munilima" },
-      { name: "UNESCO - Lima Historic Center", url: "https://whc.unesco.org/en/list/500/" },
+      { name: "Lima llaqtapa kamachiynin", url: "https://www.gob.pe/munilima" },
+      { name: "UNESCO · Lima ñawpa llaqta", url: "https://whc.unesco.org/en/list/500/" },
       { name: "Wikipedia: Plaza San Martín", url: "https://en.wikipedia.org/wiki/Plaza_San_Mart%C3%ADn_(Lima)" },
       { name: "World Monuments Fund", url: "https://www.wmf.org/projects/lima-historic-center" }
     ]}

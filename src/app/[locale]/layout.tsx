@@ -62,7 +62,7 @@ export async function generateMetadata({
         : locale === "zh"
         ? "圣马丁广场旅行指南——探索利马历史中心的标志性广场，欣赏圣马丁将军雕像。"
         : locale === "qu"
-        ? "Plaza San Martín rikuy, Lima, Piruw. San Martin Plaza."
+        ? "Lima, Piruw llaqtapi Plaza San Martínta riqsiy."
         : "A travel guide to Plaza San Martín in Lima, Peru. Historic square with equestrian statue of José de San Martín.",
     keywords: [
       "Plaza San Martín",

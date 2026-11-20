@@ -4,12 +4,12 @@ import React, { useEffect, useState } from "react";
 import { useLang } from "@/components/LangProvider";
 
 export function WeatherWidget() {
-  const { t, locale } = useLang();
+  const { locale } = useLang();
   const [weather, setWeather] = useState<{ temp: number; uv: number; precip: number } | null>(null);
 
   useEffect(() => {
-    // Open-Meteo API for Love Park, Miraflores, Lima (-12.1264, -77.0297)
-    fetch("https://api.open-meteo.com/v1/forecast?latitude=-12.1264&longitude=-77.0297&current=temperature_2m,precipitation,uv_index")
+    // Open-Meteo API for Plaza San Martín, Lima
+    fetch("https://api.open-meteo.com/v1/forecast?latitude=-12.0578&longitude=-77.0365&current=temperature_2m,precipitation,uv_index")
       .then(res => res.json())
       .then(data => {
         if (data && data.current) {
@@ -45,6 +45,8 @@ export function WeatherWidget() {
     else if (weather.uv < 8) uvLevel = "Alto";
     else if (weather.uv < 11) uvLevel = "Muy Alto";
     else uvLevel = "Extremo";
+  } else if (locale === "qu") {
+    uvLevel = ["Pisi", "Chawpi", "Hatun", "Ancha hatun", "Sinchi"][weather.uv < 3 ? 0 : weather.uv < 6 ? 1 : weather.uv < 8 ? 2 : weather.uv < 11 ? 3 : 4];
   }
 
   return (
@@ -60,7 +62,7 @@ export function WeatherWidget() {
       gap: "0.5rem"
     }}>
       <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "var(--color-deep)", display: "flex", alignItems: "center", gap: "0.5rem", margin: 0 }}>
-        🌤️ {locale === "zh" ? "利马实时天气" : locale === "es" ? "Clima en Lima" : "Live Weather in Lima"}
+        🌤️ {locale === "zh" ? "利马实时天气" : locale === "es" ? "Clima en Lima" : locale === "qu" ? "Limapa kunan pacha kasqan" : "Live Weather in Lima"}
       </h3>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", margin: "0.5rem 0" }}>
         <div style={{ background: "#f8f9fa", padding: "0.5rem 1rem", borderRadius: "8px", fontWeight: 600 }}>

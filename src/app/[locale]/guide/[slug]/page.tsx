@@ -1,3 +1,4 @@
+import { TravelPage } from "@/components/TravelPage";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +9,6 @@ import {
 import { siteUrl, walkAlternates, walkLocales, walkPath, type WalkLocale } from "@/i18n/walk";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
-const languages = { es: "Español", en: "English", zh: "中文", qu: "Runasimi" };
 
 export const dynamic = "force-dynamic";
 
@@ -55,26 +55,12 @@ export default async function NearbyPlacePage({ params }: Props) {
     ...nearbyPlaces.filter((entry) => entry.next === place.slug && entry.slug !== place.next),
   ].slice(0, 4);
   return (
-    <main className="nearby-guide" lang={locale}>
-      <header className="nearby-hero">
-        <nav className="nearby-nav">
-          <Link href={`/${locale}#nearby`}>← {labels.nearby}</Link>
-          <div>{walkLocales.map((language) => (
-            <Link key={language} href={`/${language}${path}`} hrefLang={language} lang={language}
-              aria-current={language === locale ? "page" : undefined}>{languages[language]}</Link>
-          ))}</div>
-        </nav>
-        <div className="nearby-hero-content">
-          <h1>{title}</h1>
-          <p className="hero-tagline">{kind} · Lima</p>
-          <p>{hours}</p>
-          <div className="nearby-actions">
-            <a className="hero-cta" href={links.map}>{labels.map}</a>
-            <a href={links.map}>{labels.rating}</a>
-          </div>
-        </div>
-      </header>
-      <div className="nearby-body">
+    <TravelPage locale={locale} path={path} title={title} image={place.image.src}
+      tagline={`${kind} · Lima`} summary={hours}
+      actions={<>
+        <a className="hero-cta" href={links.map}>{labels.map}</a>
+        <a href={links.map}>{labels.rating}</a>
+      </>}>
         <section className="nearby-panel">
           <h2>{sections.introduction}</h2>
           <p>{place.description[locale]}</p>
@@ -180,7 +166,6 @@ export default async function NearbyPlacePage({ params }: Props) {
           <Link href={`/${locale}#nearby`}>{labels.nearby}</Link>
           <Link href={`/${locale}${walkPath}`}>{labels.walk}</Link>
         </nav>
-      </div>
-    </main>
+    </TravelPage>
   );
 }

@@ -15,7 +15,7 @@ export function generateSchema(locale: string) {
     : locale === "zh"
     ? "利马历史中心的圣马丁广场（Plaza San Martín），1921年落成，建有圣马丁将军骑马雕像。"
     : locale === "qu"
-    ? "Plaza San Martín, Lima, Piruw. San Martin Plaza."
+    ? "Plaza San Martín, Lima, Piruw llaqtapi. 1921 watapi kichasqa, San Martínpa kawallu saywachayuq."
     : "Plaza San Martín in Lima, Peru. Historic square with equestrian statue of José de San Martín, inaugurated in 1921.";
 
   return {
