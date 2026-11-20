@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
+import { walks, walkPath } from "@/i18n/walk";
 import { LangProvider, useLang } from "@/components/LangProvider";
 import { useTheme } from "next-themes";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -83,7 +84,7 @@ function ThemeToggle() {
 }
 
 function Nav() {
-  const { t } = useLang();
+  const { t, locale } = useLang();
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -108,6 +109,7 @@ function Nav() {
           <a href="#reviews">{t.nav.reviews}</a>
           <a href="#faq">{t.nav.faq}</a>
           <a href="#location">{t.nav.location}</a>
+          <Link href={`/${locale}${walkPath}`}>{walks[locale].route}</Link>
         </div>
         <ThemeToggle />
         <LanguageSwitcher />
@@ -714,9 +716,10 @@ function Location() {
 }
 
 function Footer() {
-  const { t } = useLang();
+  const { t, locale } = useLang();
   return (
     <footer className="site-footer">
+      <Link href={`/${locale}${walkPath}`}>{walks[locale].title}</Link>
       <div className="footer-links">
         <p className="footer-links-title">{t.footer.linksTitle}</p>
         <div className="footer-links-grid">

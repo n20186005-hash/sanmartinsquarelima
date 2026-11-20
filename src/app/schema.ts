@@ -1,5 +1,5 @@
 export function generateSchema(locale: string) {
-  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "sanmartinsquarelima.com"}`;
+  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "www.sanmartinsquarelima.com"}`;
   const localUrl = `${baseUrl}/${locale}`;
 
   const name = locale === "es"

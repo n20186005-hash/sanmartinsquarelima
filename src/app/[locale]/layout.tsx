@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import { notFound } from "next/navigation";
+import { siteUrl, walkAlternates } from "@/i18n/walk";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import "../globals.css";
 
@@ -17,7 +19,7 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "sanmartinsquarelima.com"}`;
+const baseUrl = siteUrl;
 
 // 语言配置：HTML lang 属性 + OG locale 映射
 const localeConfig: Record<string, { htmlLang: string; ogLocale: string }> = {
@@ -27,30 +29,19 @@ const localeConfig: Record<string, { htmlLang: string; ogLocale: string }> = {
   qu: { htmlLang: "qu", ogLocale: "qu_PE" },
 };
 
-// 生成绝对 URL 的 hreflang 映射
-function getHreflangAlternates(baseUrl: string) {
-  return {
-    es: `${baseUrl}/es`,
-    en: `${baseUrl}/en`,
-    zh: `${baseUrl}/zh`,
-    qu: `${baseUrl}/qu`,
-    "x-default": `${baseUrl}/en`,  // 默认回退页面设为英文版
-  };
-}
-
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const hreflangs = getHreflangAlternates(baseUrl);
+  const hreflangs = walkAlternates("");
   return {
     metadataBase: new URL(baseUrl),
     title: {
       default:
         locale === "es"
-          ? "Plaza San Martín — Lima, Perú"
+          ? "Plaza San Martín, Lima | Qué ver y cómo llegar"
           : locale === "zh"
           ? "圣马丁广场 — 利马历史中心"
           : locale === "qu"
@@ -67,7 +58,7 @@ export async function generateMetadata({
     },
     description:
       locale === "es"
-        ? "Guía de viaje a la Plaza San Martín en Lima. Plaza histórica con estatua ecuestre de José de San Martín."
+        ? "Qué ver en la Plaza San Martín de Lima, dónde está la estatua ecuestre y cómo seguir a pie por el Jirón de la Unión hasta la Plaza Mayor."
         : locale === "zh"
         ? "圣马丁广场旅行指南——探索利马历史中心的标志性广场，欣赏圣马丁将军雕像。"
         : locale === "qu"
@@ -101,7 +92,7 @@ export async function generateMetadata({
       url: `${baseUrl}/${locale}`,
       title:
         locale === "es"
-          ? "Plaza San Martín — Lima, Perú"
+          ? "Plaza San Martín, Lima | Qué ver y cómo llegar"
           : locale === "zh"
           ? "圣马丁广场 — 利马历史中心"
           : locale === "qu"
@@ -143,7 +134,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title:
         locale === "es"
-          ? "Plaza San Martín — Lima, Perú"
+          ? "Plaza San Martín, Lima | Qué ver y cómo llegar"
           : locale === "zh"
           ? "圣马丁广场 — 利马历史中心"
           : locale === "qu"
@@ -212,6 +203,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
+  if (!Object.hasOwn(localeConfig, locale)) notFound();
   const htmlLang = localeConfig[locale]?.htmlLang || "es";
 
   return (

@@ -5,7 +5,7 @@ export const dynamic = 'force-static';
 export default function robots(): MetadataRoute.Robots {
   const baseUrl = process.env.CURRENT_SITE_DOMAIN 
     ? `https://${process.env.CURRENT_SITE_DOMAIN}`
-    : 'https://sanmartinsquarelima.com';
+    : 'https://www.sanmartinsquarelima.com';
 
   return {
     rules: [
