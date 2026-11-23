@@ -1,3 +1,4 @@
+import { guideExtra } from "@/i18n/guide-extra";
 import { TravelPage } from "@/components/TravelPage";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function NearbyPlacePage({ params }: Props) {
   const { locale, place } = await getPlace(params);
   const labels = nearbyLabels[locale];
+  const extra = guideExtra[locale];
   const planning = visitorPlanning[locale];
   const sections = guideSections[locale];
   const transit = transitDetails[locale];
@@ -49,6 +51,9 @@ export default async function NearbyPlacePage({ params }: Props) {
   const path = nearbyPath(place.slug);
   const venue = venueInformation[place.slug];
   const [hours, fees, time] = visitDetails(place, locale);
+  const station = transitStation(place.slug);
+  const lodging = place.address.includes("Rímac") ? extra.rimac
+    : station === "Estación Central" || station === "Estadio Nacional" ? extra.south : null;
   const next = nearbyPlaces.find(({ slug }) => slug === place.next);
   const related = [
     ...nearbyPlaces.filter(({ slug }) => slug === place.next),
@@ -76,6 +81,7 @@ export default async function NearbyPlacePage({ params }: Props) {
         <section className="info-card nearby-panel">
           <h2>{labels.about} · {title}</h2>
           <p><strong lang="es">{manager}</strong></p>
+          <p>{siteContext[place.kind as keyof typeof siteContext][locale]}</p>
         </section>
         {place.image && (
           <figure className="nearby-figure">
@@ -89,11 +95,14 @@ export default async function NearbyPlacePage({ params }: Props) {
         )}
         <section className="info-card nearby-panel">
           <h2>{labels.info}</h2>
-          <dl className="nearby-facts">
+          <dl className="nearby-facts" aria-label={extra.overview}>
             <dt>{sections.name}</dt><dd lang="es">{place.name}</dd>
             <dt>{sections.kind}</dt><dd>{kind}</dd>
             <dt>{labels.address}</dt><dd lang="es">{place.address}, Lima, Perú</dd>
             <dt>{sections.manager}</dt><dd lang="es">{manager}</dd>
+            <dt>{labels.hours}</dt><dd>{hours}</dd>
+            <dt>{labels.fees}</dt><dd>{fees}</dd>
+            <dt>{labels.transport}</dt><dd lang="es">Metropolitano · {station}</dd>
             <dt>{labels.duration}</dt><dd>{time}</dd>
           </dl>
         </section>
@@ -108,20 +117,20 @@ export default async function NearbyPlacePage({ params }: Props) {
         </section>
         <section className="nearby-panel">
           <h2>{labels.transport}</h2>
-          <p>{transit.station} <strong lang="es">{transitStation(place.slug)}</strong>. {transit.verify}</p>
+          <p>{transit.station} <strong lang="es">{station}</strong>. {transit.verify}</p>
           <p>{planning.access}</p>
           <a href={links.transit}>{transit.map}</a>
         </section>
         <section className="nearby-panel">
-          <h2>{labels.history}</h2>
-          <p>{siteContext[place.kind as keyof typeof siteContext][locale]}</p>
+          <h2>{extra.history}</h2>
+          <p>{place.heritageNote[locale]}</p>
         </section>
         <section className="nearby-panel">
           <h2>{sections.route}</h2>
           <ol>
             <li>{labels.starting}</li>
             <li><a href={links.walk}>{labels.directions}</a> <span lang="es">· {place.address}</span></li>
-            <li>{place.visitTip[locale]}</li>
+            <li>{place.detail[locale]}</li>
             {next && <li>{labels.nearbyStop} <Link href={`/${locale}${nearbyPath(next.slug)}`}>{next.titles[locale]}</Link>.</li>}
           </ol>
         </section>
@@ -140,19 +149,24 @@ export default async function NearbyPlacePage({ params }: Props) {
         <section className="nearby-panel">
           <h2>{planning.lodging}</h2>
           <p>{planning.stay}</p>
+          {lodging && <p>{lodging}</p>}
         </section>
         <section className="nearby-panel">
           <h2>{labels.reviews}</h2>
+          <p>{extra.reviews}</p>
           <p><a href={links.map}>{labels.rating}</a></p>
         </section>
         <section className="nearby-panel">
           <h2>{sections.directions}</h2>
           <p lang="es">{place.address}, Lima, Perú</p>
-          <a href={links.map}>{labels.map}</a>
+          <div className="nearby-actions">
+            <a href={links.map}>{labels.map}</a>
+            <a href={links.walk}>{extra.map}</a>
+          </div>
         </section>
         {related.length > 0 && (
           <section className="nearby-panel nearby-index">
-            <h2>{labels.nearby}</h2>
+            <h2>{extra.browse}</h2>
             <ul className="nearby-grid">{related.map((entry) => (
               <li key={entry.slug}>
                 <Link className="info-card" href={`/${locale}${nearbyPath(entry.slug)}`}>
@@ -163,6 +177,7 @@ export default async function NearbyPlacePage({ params }: Props) {
           </section>
         )}
         <nav className="nearby-bottom">
+          <Link href={`/${locale}/guide`}>{extra.browse}</Link>
           <Link href={`/${locale}#nearby`}>{labels.nearby}</Link>
           <Link href={`/${locale}${walkPath}`}>{labels.walk}</Link>
         </nav>

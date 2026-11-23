@@ -1,3 +1,4 @@
+import { guideExtra } from "@/i18n/guide-extra";
 import { TravelPage } from "@/components/TravelPage";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -36,7 +37,8 @@ export default async function WalkPage({ params }: Props) {
     <TravelPage locale={locale} path={walkPath} title={walk.title}
       image="/nearby/plaza-mayor.jpg" tagline={walk.route}
       actions={<a className="hero-cta" href={directions}>{walk.map}</a>}>
-      <Link href={`/${locale}#nearby`}>← {walk.back}</Link>
+      <Link href={`/${locale}/guide`}>{guideExtra[locale].browse}</Link>
+      <p><Link href={`/${locale}#nearby`}>← {walk.back}</Link></p>
       <p>{walk.intro}</p>
       <section className="info-card nearby-panel">
         <h2>{labels.about}</h2>

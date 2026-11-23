@@ -42,6 +42,12 @@
       "en": "Walk the arcaded perimeter before crossing. The square brings the national government, City Hall and the episcopal seat together in one space.",
       "zh": "先沿有拱廊的广场外围走一圈，再走向喷泉。这里把国家政府、市政府和主教座堂集中在同一个广场。",
       "qu": "Mana chayraq chakruchkaspa, plazapa muyuriq arkuninkunata puriy. Piruwpa kamachiqnin, Lima kamachiqnin, obispopa wasin kaypin."
+    },
+    "heritageNote": {
+      "es": "La traza fundacional situó en la plaza los poderes civil y religioso. Desde la fuente, gira hacia el Palacio de Gobierno, la Catedral y el Palacio Municipal para leer esa distribución.",
+      "en": "The founding plan placed civil and religious authority around the square. Turn from the fountain toward the Government Palace, cathedral and city hall to see how that layout works.",
+      "zh": "1535 年利马建城时，这座广场便是城市规划的中心。从喷泉处分别转向总统府、主教座堂和市政宫，可看出政务与宗教建筑怎样围合广场。",
+      "qu": "1535 watapi Lima llaqta qallarisqanpi kay plaza chawpi karqan. Pukyumanta Gobierno wasita, hatun much’ay wasita, llaqta kamachiypa wasinta qaway."
     }
   },
   {
@@ -87,6 +93,12 @@
       "en": "Inside, start in the central nave and allow time for the religious art museum. During worship, wait before touring the chapels.",
       "zh": "入内先沿中央中殿参观，再给宗教艺术博物馆留时间。若正在举行礼拜，等仪式结束再参观侧礼拜堂。",
       "qu": "Ukhuman yaykuspa chawpimanta qallariy, much’ay ruraykunapa museonta qaway. Misa kaptinqa suyay."
+    },
+    "heritageNote": {
+      "es": "La fachada se entiende desde la plaza, pero el interior añade otra escala. Recorre el eje de la nave antes de acercarte a las capillas y al espacio funerario de Francisco Pizarro.",
+      "en": "The square gives you a view of the whole façade. Inside, follow the nave before stopping at the side chapels and the burial chapel of Francisco Pizarro.",
+      "zh": "先从广场看主教座堂完整立面，入内再沿中央中殿前行，看两侧小堂与弗朗西斯科·皮萨罗的墓室。两种尺度适合分别留出时间。",
+      "qu": "Plazamanta wasipa uyanta qaway. Yaykuspa chawpi ñanta qatipay, chaymanta much’ay kuartukunata Francisco Pizarropa p’ampasqanta qaway."
     }
   },
   {
@@ -132,6 +144,12 @@
       "en": "Plan to see the building from the square sidewalk. The gates mark the public boundary and a guard ceremony may affect access along the frontage.",
       "zh": "建议从广场人行道看建筑。铁栏是访客活动范围的边界，卫兵仪式可能临时改变宫前通行安排。",
       "qu": "Plaza ñanmanta kamachiqpa wasinta qaway. Punku hark’ana ukhuman ama yaykuychu. Waqaychaqkunapa ruraynin kaptin ñan hukmanyanman."
+    },
+    "heritageNote": {
+      "es": "La sede presidencial ocupa el frente norte de la plaza. Desde la acera pública, observa cómo la verja y el patio ordenan el acceso ceremonial al edificio.",
+      "en": "Peru’s presidential seat occupies the north side of the square. From the public sidewalk, look at how the gate and courtyard frame the ceremonial approach.",
+      "zh": "秘鲁总统府占据武器广场北侧。从公共人行道可看出铁栏、庭院和主入口怎样形成礼仪通道，广场另一侧更容易看清整体。",
+      "qu": "Piruwpa umalliqninpa wasin plazapa wichay ladunpi kachkan. Llapanpa ñanninta purispa hark’anata kanchatawan qaway."
     }
   },
   {
@@ -177,6 +195,12 @@
       "en": "From the square, look first at the street-level gallery and then up at the balconies. The two levels show how a working civic building borrows historic forms.",
       "zh": "从广场边先观察街面拱廊，再抬头看上层阳台。两个楼层能帮助你理解这座办公建筑如何借用历史形式。",
       "qu": "Plaza patamanta ñawpaqta uray arkunata qaway, chaymanta hanaq balkonkunata."
+    },
+    "heritageNote": {
+      "es": "El frente combina una galería a nivel de calle con balcones oscuros en el piso alto. Mira primero desde el borde de la plaza y luego bajo los arcos.",
+      "en": "The frontage combines a street-level arcade with dark balconies above. Look first from the edge of the square, then from beneath the arches.",
+      "zh": "市政宫的底层拱廊与上层深色阳台层次分明。先在广场边看完整立面，再到拱廊下观察它与人行道的衔接。",
+      "qu": "Uraypi arkukuna, hanaqpi yana balkonkuna kachkan. Ñawpaqta plaza patamanta qaway, chaymanta arkukunapa uranta puriy."
     }
   },
   {
@@ -222,6 +246,12 @@
       "en": "Stop on Carabaya to compare the scale of the portal with the balconies. Check museum access separately from the cathedral if you plan to go inside.",
       "zh": "在卡拉巴亚街比较门洞与木阳台的尺度。如果准备进馆，请分别查询宫内博物馆和主教座堂的入场安排。",
       "qu": "Carabaya ñanpi punkuta balkonkunatawan tupachiy. Museo yaykunapaq sapanta tapuy."
+    },
+    "heritageNote": {
+      "es": "Compara los balcones salientes del palacio con la composición de la catedral contigua. La esquina de Carabaya permite ver ambos edificios sin confundir sus entradas.",
+      "en": "Compare the palace’s projecting balconies with the adjoining cathedral. From Carabaya, you can see both buildings and identify their separate entrances.",
+      "zh": "从卡拉巴亚街观察总主教宫外挑的木阳台，再和紧邻的座堂立面对照。准备入内时，分别辨认两个入口。",
+      "qu": "Carabaya ñanmanta wasipa lluqsiq balkonkunata hatun much’ay wasiwan tupachiy. Iskay wasipa punkunta sapanta tariy."
     }
   },
   {
@@ -267,6 +297,12 @@
       "en": "If you book a visit, spend the first part in the courtyard and by the stairs. Their relationship to the reception rooms shows the transition from street to family home.",
       "zh": "如果预约到导览，先看庭院和楼梯，再留意它们如何接到会客厅，由此理解利马历史宅邸从临街入口到家庭空间的过渡。",
       "qu": "Yaykunata atispa kanchata, siqanata, runa chaskina kuartukunata qaway."
+    },
+    "heritageNote": {
+      "es": "La historia de la casa se remonta al reparto de solares de la fundación. En una visita interior, sigue la secuencia de entrada, patio, escalera y salones.",
+      "en": "The house traces its history to the original division of lots after Lima’s founding. On an interior visit, follow the sequence from entrance to courtyard, staircase and reception rooms.",
+      "zh": "宅邸的历史可追溯至利马建城后分配的地块。入内时顺着入口、庭院、楼梯和会客厅观察，理解沿街空间如何逐步过渡到住宅。",
+      "qu": "Lima qallarisqanpi rakisqa allpamanta kay wasipa willakuynin qallarin. Yaykuspa punkuta, kanchata, siqanata, chaskina kuartukunata qatipay."
     }
   },
   {
@@ -312,6 +348,12 @@
       "en": "Use the opposite side of Ucayali as your viewpoint. Contrast the carved masonry with the dark timber balconies on this working ministry building.",
       "zh": "从乌卡亚利街对侧观察石雕与深色木阳台的反差。这座宅邸目前仍作部委办公使用，宜把外观作为游览重点。",
       "qu": "Ucayali ñan chimpamanta rumi punkuta yana qiru balkonkunatawan tupachiy. Kunankama kamachiy llamk’an kaypi."
+    },
+    "heritageNote": {
+      "es": "Los balcones de madera y la portada tallada son los dos focos del frente. Desde la acera opuesta se aprecia mejor cómo sobresalen los balcones sobre una calle estrecha.",
+      "en": "Carved masonry and timber balconies are the two focal points. The opposite sidewalk gives the clearest view of how the balconies project over the narrow street.",
+      "zh": "雕刻门廊和木质阳台是立面的两个重点。站在乌卡亚利街对侧，更容易看清阳台如何悬挑在窄街上方。",
+      "qu": "Ucayali chimpamanta rumi punkuta qiru balkonkunatawan qaway. Ñan huch’uy kasqanrayku balkonpa lluqsiynin sut’in."
     }
   },
   {
@@ -357,6 +399,12 @@
       "en": "Make two stops on the same block. Look at this house first, then at Torre Tagle. Keeping the same street-level viewpoint makes the comparison easier.",
       "zh": "同一街区内可做两站，先看这座宅邸，再看对面的托雷塔格莱宫。从同一高度观察，更容易比较楼层、门洞和阳台的位置。",
       "qu": "Kay kuadrapi iskay kuti sayay. Ñawpaqta kay wasita qaway, chaymanta Torre Tagleta."
+    },
+    "heritageNote": {
+      "es": "La mejor comparación está justo enfrente, en Torre Tagle. Alterna ambas fachadas para distinguir tamaño de ventanas, posición de balcones y tratamiento de la portada.",
+      "en": "Torre Tagle stands directly across the street. Compare the two façades for window size, balcony position and the treatment of the main door.",
+      "zh": "正对面就是托雷塔格莱宫。可在同一条街上比较两座宅邸的窗洞尺度、阳台位置和门廊处理，适合安排一次短停留。",
+      "qu": "Torre Tagle chimpapi kachkan. Iskay wasipa t’uqunkunata, balkonninkunata, hatun punkunkunata tupachiy."
     }
   },
   {
@@ -402,6 +450,12 @@
       "en": "Treat the forecourt and church as a separate stop from the paid convent and catacomb circuit. Ask about a surface route if underground passages are unsuitable for you.",
       "zh": "教堂与前庭可以单独安排，修道院和地下墓穴另按收费线路参观。如果不便走地下通道，可现场询问地面参观范围。",
       "qu": "Pampa much’ay wasita sapanta qaway. Uku p’ampanaman mana riyta atispa, hawapi purinata tapuy."
+    },
+    "heritageNote": {
+      "es": "El atrio, el templo y el convento se leen como un conjunto. Después de mirar las torres desde la plazuela, decide si añades el recorrido interior de clausura histórica y catacumbas.",
+      "en": "The forecourt, church and convent form one ensemble. Look up at the towers from the small square before deciding whether to add the convent and catacomb tour.",
+      "zh": "前庭、教堂和修道院共同构成建筑群。先在小广场观察双塔，再决定是否另外安排修道院与地下墓穴的参观。",
+      "qu": "Pampata, much’ay wasita conventotawan huk huñusqa hina qaway. Pampa patamanta turrekunata qawaspa, uku p’ampana ñanta akllay."
     }
   },
   {
@@ -447,6 +501,12 @@
       "en": "Allow museum time for the courtyards. In the church, plan around worship, and check the museum’s midday closure before arriving.",
       "zh": "给博物馆庭院留出观览时间。教堂参观应避开正在进行的礼仪，午间计划还要考虑博物馆的闭馆间隔。",
       "qu": "Museopa kanchankunapaq pachata waqaychay. Chawpi p’unchaypi museo wisq’asqa kasqanta qaway."
+    },
+    "heritageNote": {
+      "es": "Pasa de la calle al claustro para notar el cambio de escala y de ambiente. El recorrido conventual permite vincular estos patios con la devoción a los santos limeños.",
+      "en": "The move from street to cloister changes the scale and atmosphere. The convent visit links the courtyards with devotion to Lima’s saints.",
+      "zh": "从街上进入修道院回廊，空间由开阔热闹转为围合安静。参观庭院时，可结合展陈了解利马圣徒在当地宗教传统中的地位。",
+      "qu": "Camaná ñanmanta conventopa kanchanman yaykuspa hawamanta ukhuman tikrakuyta qaway. Limapa santonkunapa willakuyninta uyarikuy."
     }
   },
   {
@@ -492,6 +552,12 @@
       "en": "Pause at the pedestrian edge and look at the portal from bottom to top. Before entering, check whether worship is under way.",
       "zh": "在人行区边缘停留，从下到上看门廊的层次。准备入内时，先确认是否正在举行弥撒。",
       "qu": "Chaki ñan patapi sayaspa punkuta uraymanta hanaqkama qaway. Misa kaptin suyay."
+    },
+    "heritageNote": {
+      "es": "En plena calle comercial, la portada se aprecia mejor desde el lado opuesto del corredor peatonal. Mira cómo las columnas y los nichos dividen el frente en varios niveles.",
+      "en": "On the busy shopping street, view the portal from the opposite edge of the pedestrian lane. Notice how the columns and niches divide the façade into tiers.",
+      "zh": "从步行街另一侧观察门廊，留意立柱和壁龛如何分割立面层次。街道仍是商业通道，停留拍照时可站在边缘。",
+      "qu": "Chaki ñanpa chimpanmanta punkuta qaway. Saywankuna t’uqunkunapas imayna rakinku chayta qaway, ñanta ama hark’aychu."
     }
   },
   {
@@ -537,6 +603,12 @@
       "en": "Begin on the Ucayali corner. The contrast between exterior stone and interior altarpieces is clearest when you allow time for both views.",
       "zh": "从乌卡亚利街转角开始，先看石砌外墙。如开放入内，再对照内部祭坛的金饰与细部。",
       "qu": "Ucayali kuchumanta qallariy. Hawa rumita, kichasqa kaptin uku altar nisqakunata qaway."
+    },
+    "heritageNote": {
+      "es": "La esquina permite observar la fachada en diagonal y luego de frente. Si el templo está abierto, contrasta el exterior sobrio con el trabajo de los retablos interiores.",
+      "en": "The corner gives an oblique view before you approach the façade head-on. If the church is open, compare the restrained exterior with the workmanship of the altarpieces.",
+      "zh": "从街角先斜看整座立面，再转到正面看入口。若教堂开放，可进中殿对照外部石材与内部祭坛装饰。",
+      "qu": "Kuchumanta wasita ladunmanta qaway, chaymanta ñawpaqninmanta. Kichasqa kaptin, hawa rumita uku altarkunawan tupachiy."
     }
   },
   {
@@ -582,6 +654,12 @@
       "en": "View the portal from the far edge of the forecourt, then come closer to pick out individual niches. Read the silhouette before the carving.",
       "zh": "先从小广场远端看门廊轮廓，再靠近分辨各个壁龛和石雕，让远看与近看各有重点。",
       "qu": "Pampa tukukuyninmanta punkuta qaway. Chaymanta asuykuspa rumi t’ukukunata qaway."
+    },
+    "heritageNote": {
+      "es": "El espacio delante de la iglesia permite leer primero toda la portada. Al acercarte, busca los pequeños nichos y el relieve que se pierden en una vista lejana.",
+      "en": "The open space in front of the church lets you read the whole portal. Move closer to pick out small niches and reliefs that disappear at a distance.",
+      "zh": "先在教堂前开阔处看完整门廊，再靠近分辨远处看不清的壁龛和石雕，适合用远近两次停留。",
+      "qu": "Much’ay wasipa ñawpaq pampanmanta llapan punkuta qaway. Asuykuspa t’uqukunata rumi siqikunatawan riqsiy."
     }
   },
   {
@@ -627,6 +705,12 @@
       "en": "Choose whether to see the church, the well or both. Queues can differ on devotional days, especially around Saint Rose’s feast.",
       "zh": "可分别安排教堂和许愿井。遇到宗教活动，尤其是圣罗莎庆日前后，两处排队长度和通行安排可能不同。",
       "qu": "Much’ay wasita, pukyuta icha iskayninta qaway. Santa Rosapa rayminpi suyana pacha hukmanyanman."
+    },
+    "heritageNote": {
+      "es": "El templo y el pozo devocional son paradas distintas dentro de la visita. Deja paso a quienes se acercan al pozo para depositar sus peticiones.",
+      "en": "The church and devotional well are distinct stops. Leave room for visitors approaching the well to leave their petitions.",
+      "zh": "教堂和许愿井是两处不同的参观节点。到井边时给投递祈愿信的信众留出通道。",
+      "qu": "Much’ay wasiwan pukyuwan iskay sayanakuna. Pukyuman mañakuyta apaqkunapa ñanninta saqiy."
     }
   },
   {
@@ -672,6 +756,12 @@
       "en": "In October, check the procession route before choosing a meeting point. On an ordinary visit, begin at the entrance on Avenida Tacna.",
       "zh": "十月出行可先查巡游路线再定会合点。普通到访从塔克纳大道的入口开始，留意礼拜与参观的动线。",
       "qu": "Octubre killapi procesiónpa ñanta ñawpaqta qaway. Huk p’unchaypi Tacna punkumanta qallariy."
+    },
+    "heritageNote": {
+      "es": "La imagen del Señor de los Milagros explica la importancia del santuario en octubre. En visita ordinaria, observa primero la relación entre la entrada y la avenida Tacna.",
+      "en": "The image of the Lord of Miracles explains the sanctuary’s importance in October. On a regular visit, first look at how its entrance meets Avenida Tacna.",
+      "zh": "奇迹之主圣像是理解圣所与十月巡游的关键。平日到访可先从塔克纳大道辨认入口与立面，再按当天礼拜安排入内。",
+      "qu": "Señor de los Milagrospa rikch’aynin chunka killapi kay wasipa hatun kayninta rikuchin. Tacna ñanmanta punkuta qaway."
     }
   },
   {
@@ -717,6 +807,12 @@
       "en": "Start on the upper path to get your bearings, then head down towards the exposed remains. Check the site museum’s hours separately.",
       "zh": "先走上层步道定位河道和古城墙，再下到可见遗迹一带。若打算进遗址博物馆，另查馆内时间。",
       "qu": "Hanaq ñanmanta mayuta pirqata riqsiy. Urayman riy, museopa pachanta sapanta tapuy."
+    },
+    "heritageNote": {
+      "es": "El paseo elevado muestra la conexión entre la ciudad y el río. Baja después a los restos expuestos para distinguir la defensa histórica del parque actual.",
+      "en": "The upper paths show the relationship between city and river. Then approach the exposed remains to distinguish the historic defences from the park around them.",
+      "zh": "先从高处看老城与里马克河的位置关系，再到裸露遗址一带区分历史防御工事与今日公园的步道。",
+      "qu": "Hanaq ñanmanta llaqtata mayutawan qaway. Chaymanta urayman ñawpa hark’ana pirqakunata riqsiy."
     }
   },
   {
@@ -762,6 +858,12 @@
       "en": "Read the entrance hall as a railway space before entering the exhibition. If you want a specific event, choose your visit using the programme.",
       "zh": "先把大厅当作旧车站空间看，再进展览区。若专程参加活动，先对照文学之家的节目表选日期。",
       "qu": "Ñawpaqta trenpa ukunta qaway, chaymanta qawachikuyman yaykuy. Rurayta munaspa p’unchayninta qaway."
+    },
+    "heritageNote": {
+      "es": "El edificio conserva la escala de una estación ferroviaria. Mira primero el vestíbulo y su iluminación antes de pasar a las salas y actividades literarias.",
+      "en": "The building still has the scale of a railway station. Look at the entrance hall and how it is lit before moving into the literary exhibitions.",
+      "zh": "建筑仍保留旧火车站的空间尺度。可先观察入口大厅和采光，再进入文学展厅或参加当日活动。",
+      "qu": "Wasiqa ñawpa trenpa sayanan hina kachkan. Ñawpaqta yaykuna pampata k’anchaynintawan qaway, chaymanta qillqay qawachikunaman yaykuy."
     }
   },
   {
@@ -807,6 +909,12 @@
       "en": "Cross on the designated pedestrian path, then look for a public side viewpoint for the arches. The walk takes you from Cercado into Rímac.",
       "zh": "走开放的行人通道过河，再找公共河岸侧看桥拱。过桥即从利马中心区走向里马克区。",
       "qu": "Chakinapaq ñanwan chimpay. Chaymanta mayu patamanta chaka arkunata qaway. Cercadomanta Rimaqman chayanki."
+    },
+    "heritageNote": {
+      "es": "El tablero sirve para cruzar, pero los arcos se entienden desde un punto público lateral. Compara las dos orillas para ver cómo el puente enlaza el centro con el Rímac.",
+      "en": "Cross on the deck, then look for a public side view of the arches. Compare the two banks to see how the bridge connects central Lima and Rímac.",
+      "zh": "桥面适合过河，桥拱则从侧面的公共空间看得更清楚。可对照两岸，理解桥梁怎样连接市中心和里马克区。",
+      "qu": "Chakapa hawanpi chimpay. Mayupa ladunmanta arkunata qaway, Lima chawpita Rimaqwan imayna tinkichin chayta riqsiy."
     }
   },
   {
@@ -852,6 +960,12 @@
       "en": "Start at one end of the promenade to see the full alignment. Treat the convent as a separate stop with its own access arrangements.",
       "zh": "从林荫道一端沿轴线观看整列雕像。若再参观修道院，将其另作一站并核对入口。",
       "qu": "Ñanpa huk tukukuyninmanta qallariy, llapan qatinta qawanaykipaq. Conventoman yaykunata sapanta tapuy."
+    },
+    "heritageNote": {
+      "es": "Empieza por una vista axial de la alameda. Luego fíjate en cómo la sucesión de esculturas y jardines marca el paso hacia el extremo del convento.",
+      "en": "Start with a view along the promenade axis. Then watch how the line of sculptures and gardens leads toward the convent end.",
+      "zh": "先从步道一端看整条中轴，再沿雕像和园地前行，感受它们怎样把视线引向修道院一端。",
+      "qu": "Alamedapa chawpi ñanmanta qallariy. Saywachakuna kanchakunapas conventokama ñanta rikuchinku."
     }
   },
   {
@@ -897,6 +1011,12 @@
       "en": "Look at the arcades from the far end of the basin, then continue to the Alameda to compare two historic Rímac promenades.",
       "zh": "从水池另一端看整排拱墙，然后可步行接赤足修士林荫道，对照里马克两处历史步道。",
       "qu": "Qucha huk tukukuyninmanta arkukunata qaway, chaymanta Alamedaman riy."
+    },
+    "heritageNote": {
+      "es": "La arquería cierra la perspectiva del paseo. Mira primero desde el extremo del estanque y después de lado para apreciar la relación entre muro y espacio abierto.",
+      "en": "The arcade closes the promenade’s main vista. Look first from the end of the basin, then from the side to see how the wall defines the open space.",
+      "zh": "拱廊是步道主视线的终点。先从原水池一端看对称构图，再从侧面观察墙体如何界定开敞空间。",
+      "qu": "Arkunakuna ñanpa tukukuyninpi kachkan. Ñawpaqta qucha tukukuyninmanta qaway, chaymanta pirqata ladunmanta qaway."
     }
   },
   {
@@ -942,6 +1062,12 @@
       "en": "Start on the Junín side to read the alignment of the monument and Congress. During events or cordons, follow the public perimeter and keep your route flexible.",
       "zh": "从胡宁街一侧看纪念碑和国会建筑的中轴线。如遇围栏或活动，沿开放的外围人行道调整路线。",
       "qu": "Junín ladumanta Bolívarpa saywachanta Congreso wasitawan qaway. Hark’ana kaptin hawa ñanta qatipay."
+    },
+    "heritageNote": {
+      "es": "El monumento ecuestre y el Palacio Legislativo comparten un eje visual. Desde Junín, mira cómo la estatua introduce el frente del Congreso.",
+      "en": "The equestrian monument and Legislative Palace share a visual axis. Look from Junín to see how the statue frames the Congress frontage.",
+      "zh": "骑马纪念像与立法宫处在同一视线轴上。从胡宁街一侧观察雕像如何构成立法宫的前景。",
+      "qu": "Junín ñanmanta kawallu saywachata Congreso wasitawan qaway. Iskayninku huk ñanpi rikurinku."
     }
   },
   {
@@ -987,6 +1113,12 @@
       "en": "Plan an exterior stop from the square and add the interior only if visitor access is available. The portico’s columns are clearest from directly across.",
       "zh": "可先按广场上的外观停留规划行程，确认开放后再增加馆内参观。正对建筑能更好看清门廊立柱。",
       "qu": "Plazamanta hawanta qaway. Museo kichasqa kaptin ukhuman yaykuy. Chimpamanta saywankunata qaway."
+    },
+    "heritageNote": {
+      "es": "La fachada permite reconocer el edificio relacionado con la historia del tribunal. Completa la parada leyendo la plaza y el entorno legislativo desde el espacio público.",
+      "en": "The frontage identifies the building associated with the tribunal’s history. Use the public square to see how it sits within the legislative precinct.",
+      "zh": "可从外观辨认这座与历史法庭有关的建筑，再借广场上的视角了解它与周围立法建筑的关系。",
+      "qu": "Ñawpa taripay wasita uyankunamanta riqsiy. Plazamanta Congreso wasipa qayllanpi imayna kasqanta qaway."
     }
   },
   {
@@ -1032,6 +1164,12 @@
       "en": "Look for the entrance at Ucayali and Lampa. Before heading to the galleries, look for architectural clues to the building’s past as a bank.",
       "zh": "在乌卡亚利街和兰帕街交叉口找入口。进展厅前先看立面和入口上原银行用途留下的线索。",
       "qu": "Ucayali Lampa tinkuyninpi punkuta maskay. Museo manaraq yaykuspa, ñawpa banco wasipa uyanta qaway."
+    },
+    "heritageNote": {
+      "es": "Antes de mirar las colecciones, observa el frente del antiguo banco. La escala de su acceso da contexto al cambio de edificio financiero a espacio museístico.",
+      "en": "Before viewing the collections, study the former bank frontage. The scale of its entrance helps explain the shift from financial building to museum.",
+      "zh": "先看旧银行的入口尺度和立面，再进展厅看藏品，能理解这座金融建筑如何转作博物馆。",
+      "qu": "Qawachikunata manaraq rikuchkaspa, ñawpa banco wasipa hatun punkunta qaway. Kunanqa museoman tukusqa."
     }
   },
   {
@@ -1077,6 +1215,12 @@
       "en": "Choose one of the two opening windows, avoiding the midday break. Inside, compare the family story with the naval-history objects.",
       "zh": "选上午或下午其中一个开放时段，避开午间闭馆。馆内可对照格劳的家庭生活叙事与海军史展件。",
       "qu": "Chawpi p’unchaypa wisq’ananta qaway. Uhkupi ayllu kawsayta lamar qucha ñawpa imakunatawan tupachiy."
+    },
+    "heritageNote": {
+      "es": "La visita pone la vida doméstica y la memoria naval en el mismo recorrido. Observa cómo cambian los temas al pasar de una habitación a la siguiente.",
+      "en": "The visit places domestic life and naval memory on the same route. Watch how the themes change as you pass from one room to the next.",
+      "zh": "故居把家庭生活与海军历史放在同一参观动线上。沿房间顺序前行，可留意两类展品如何交替。",
+      "qu": "Kay wasipi ayllu kawsayta lamar quchapa ñawpa kawsaynintawan qawachinku. Sapa kuartupi imayna tikrakun chayta qaway."
     }
   },
   {
@@ -1122,6 +1266,12 @@
       "en": "Plan the facade stop separately from a performance. To see the auditorium, check what is on or whether there is a scheduled tour.",
       "zh": "看外观和进场看演出宜分别计划。若希望进入观众厅，提前查剧目、售票或导览场次。",
       "qu": "Taki wasipa hawanta qaway. Ukhupi takita uyarinapaq ruranakuna qillqata ñawpaqta qaway."
+    },
+    "heritageNote": {
+      "es": "La fachada de la calle Ica sirve como primera parada. Con una función o visita programada, el recorrido puede continuar por el vestíbulo y el auditorio.",
+      "en": "The Jirón Ica frontage makes a first stop. With a scheduled performance or tour, the visit can continue into the foyer and auditorium.",
+      "zh": "可先从伊卡街看剧院立面。若订到演出或导览，再进一步参观门厅与观众厅，感受剧院的空间层次。",
+      "qu": "Ica ñanmanta ñawpaqta wasipa uyanta qaway. Taki utaq pusasqa puriy kaptin, chaskina pampata uyarina ukutawan qaway."
     }
   },
   {
@@ -1167,6 +1317,12 @@
       "en": "Find the Huancavelica entrance and pair the exterior with the nearby Casa Grau Museum. If attending a show, allow time for entry.",
       "zh": "从万卡韦利卡街找入口，可和附近格劳故居连逛。持演出票到访时，预留进场时间。",
       "qu": "Huancavelica ñanpi punkuta tariy, chaymanta Casa Grauman riy. Takiman yaykunapaq ñawpaqta chayay."
+    },
+    "heritageNote": {
+      "es": "El teatro se integra en una calle de escala más íntima que la plaza. Mira su entrada desde la acera opuesta antes de continuar hacia Casa Grau.",
+      "en": "The theatre sits on a more intimate street than the main square. View its entrance from the opposite sidewalk before continuing to Casa Grau.",
+      "zh": "剧院位于比广场更狭窄的历史街道上。可在对面人行道看入口，再沿万卡韦利卡街接格劳故居。",
+      "qu": "Teatroqa plaza hina hatunchu kaq ñanpi kachkan. Chimpamanta punkuta qaway, chaymanta Casa Grauman puriy."
     }
   },
   {
@@ -1212,6 +1368,12 @@
       "en": "Split the walk into three legs: leave San Martín, stop outside La Merced, then arrive at Plaza Mayor. Look above the shops along each leg.",
       "zh": "可把步行分三段：从圣马丁广场出发、在仁慈圣母圣殿前停留、抵达武器广场。各段都可抬头观察商铺上方保留的老立面。",
       "qu": "Plaza San Martínmanta qallariy. La Mercedpi sayay, chaymanta Plaza Mayorman riy. Qhatukunapa hanaqninta qaway."
+    },
+    "heritageNote": {
+      "es": "La calle cambia entre escaparates, portadas religiosas y fachadas altas. Detente en La Merced y vuelve a mirar hacia arriba antes de seguir a Plaza Mayor.",
+      "en": "Storefronts, church portals and tall façades give the street distinct rhythms. Pause at La Merced and look above shop level before continuing to Plaza Mayor.",
+      "zh": "联盟街上，店铺橱窗、教堂门廊和高立面交替出现。到仁慈圣母圣殿停一次，再抬头看店面上方后继续走向武器广场。",
+      "qu": "Kay ñanpi qhatukuna, much’ay wasipa punkun, hatun wasikunapas kachkan. La Mercedpi sayay, hanaqman qawaspa Plaza Mayorman riy."
     }
   },
   {
@@ -1257,6 +1419,12 @@
       "en": "Enter from Rufino Torrico and find a view that includes monument and church. Treat the church interior as an optional stop.",
       "zh": "从鲁菲诺·托里科街进入广场，寻找能同时看到雕像和教堂的位置。教堂室内可作为独立的可选停留。",
       "qu": "Rufino Torricomanta plazaman yaykuy. Saywachata much’ay wasitawan qaway."
+    },
+    "heritageNote": {
+      "es": "La plaza permite encuadrar el monumento y la iglesia en una sola vista. Acércate después al borde de la calle para comparar su escala con el tejido urbano inmediato.",
+      "en": "The square gives a single view of the monument and church. Then move to the street edge to compare their scale with the surrounding blocks.",
+      "zh": "在法国广场可把纪念雕像和教堂放进同一视野。之后走到街边，对照广场与周围街块的尺度。",
+      "qu": "Plazamanta saywachata much’ay wasitawan huk qawaypi rikuy. Chaymanta ñan pataman asuykuspa muyuriq wasikunawan tupachiy."
     }
   },
   {
@@ -1302,6 +1470,12 @@
       "en": "Use pedestrian Gate 3A and decide whether to focus on the collection, a temporary show or both. Look back at the building from the gardens before entering.",
       "zh": "步行从 3A 门进园，先决定看常设馆藏、临展或两者。入馆前从花园回看整座展览宫。",
       "qu": "3A punkumanta yaykuy. Museo qawachikuyninta akllay. Kanchamanta Exposición wasita qaway."
+    },
+    "heritageNote": {
+      "es": "El Palacio de la Exposición antecede al uso museístico actual. Observa su relación con el jardín antes de elegir entre las colecciones y las muestras temporales.",
+      "en": "The Exhibition Palace predates its museum use. Look back at its relationship to the garden before choosing between the collections and temporary exhibitions.",
+      "zh": "展览宫早于今天的博物馆用途。入馆前从花园回看建筑，再根据可用时间选择常设馆藏与临展。",
+      "qu": "Exposición wasita museoman tukuchisqankumanta ñawpaqta rurarqanku. Kanchamanta wasita qaway, chaymanta akllasqa qawachikunaman yaykuy."
     }
   },
   {
@@ -1347,6 +1521,12 @@
       "en": "Walk the paths between the pavilions and gardens first. If you add MALI, allow a separate block and check entry through Gate 3A.",
       "zh": "先沿园路在亭阁和园地之间散步。若加入利马艺术博物馆，单独预留参观时间并核对 3A 门。",
       "qu": "Kanchakunapa chaki ñankunata puriy. MALIta yapaspa, 3A punkuta qaway."
+    },
+    "heritageNote": {
+      "es": "Los jardines, pabellones y el Palacio de la Exposición se entienden mejor a pie. Reserva tiempo para los senderos incluso si el museo es tu parada principal.",
+      "en": "The gardens, pavilions and Exhibition Palace are best read on foot. Leave time for the paths even if the museum is your main stop.",
+      "zh": "花园、亭阁和展览宫适合步行串联。即使重点是艺术博物馆，也可留一段时间在园路上看建筑与园地的对应关系。",
+      "qu": "Kanchakunata, samana wasikunata, Exposición wasitawan chakiwan riqsiy. Museo hatun akllayniyki kaptinpas kanchapi puriy."
     }
   },
   {
@@ -1392,6 +1572,12 @@
       "en": "Before choosing a date, confirm whether audiovisual sessions are running. If there is no session, pair an exterior stop with the Exhibition Park.",
       "zh": "定日期前先核实当天是否有影音场次。若无开放场次，可把外观停留与博览公园合并安排。",
       "qu": "P’unchayta manaraq akllaspa, uyarina qawanakuna kasqanta tapuy. Mana kaptin, hawanta qawaspa kanchaman riy."
+    },
+    "heritageNote": {
+      "es": "El edificio público y su programa audiovisual ofrecen dos formas de leer la ciudad. Consulta la sesión del día antes de fijar la visita interior.",
+      "en": "The public building and its audiovisual programme offer two ways to read the city. Check the day’s sessions before planning an interior visit.",
+      "zh": "市立博物馆的公共建筑与影音节目提供理解利马的两种角度。若打算入馆，先查当天是否有场次。",
+      "qu": "Llaqta wasita qaway, chaymanta uyarina qawana ruraykunata riqsiy. Manaraq yaykuspa kunan p’unchaypa pachanta tapuy."
     }
   },
   {
@@ -1437,6 +1623,12 @@
       "en": "Enter from Madre de Dios for the circuit. Walk among the fountains first, then choose a spot for the show at the Fantasy Fountain.",
       "zh": "前往水景线路可从马德雷德迪奥斯街一带入园。先走看各处喷泉，再到幻想喷泉选位置观看表演。",
       "qu": "Madre de Dios ñanmanta yaykuy. Pukyukunata muyuy, chaymanta Fuente de la Fantasíapi qawanaykita maskay."
+    },
+    "heritageNote": {
+      "es": "Separa el paseo entre fuentes del espectáculo. Llegar con luz facilita ver la disposición del parque y volver a la Fuente de la Fantasía al acercarse la función.",
+      "en": "Treat the fountain walk and the show as separate parts of a visit. Arrive in daylight to see the park layout, then return to the Fantasy Fountain near show time.",
+      "zh": "可把水景步行与灯光演出分开安排。天亮时先看公园布局和各座喷泉，接近开演再回幻想喷泉附近找位置。",
+      "qu": "Pukyukunata p’unchaypi muyuy. Tutayaqta qawachikuy pacha asuykamuptin, Fuente de la Fantasíaman kutiy."
     }
   }
 ]

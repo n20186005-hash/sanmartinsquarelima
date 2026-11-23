@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
+import { guideExtra } from "@/i18n/guide-extra";
 import { nearbyLabels, nearbyPath, nearbyPlaces } from "@/i18n/nearby";
 import { walks, walkPath } from "@/i18n/walk";
 import { LangProvider, useLang } from "@/components/LangProvider";
@@ -642,6 +643,7 @@ function Nearby() {
   return (
     <section className="section nearby-index" id="nearby">
       <h2 className="section-title">{nearbyLabels[locale].nearby}</h2>
+      <Link href={`/${locale}/guide`}>{guideExtra[locale].browse}</Link>
       <ul className="nearby-grid">
         {nearbyPlaces.map((place) => (
           <li key={place.slug}><Link className="info-card" href={`/${locale}${nearbyPath(place.slug)}`}>

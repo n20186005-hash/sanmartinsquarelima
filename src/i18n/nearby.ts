@@ -115,6 +115,16 @@ export const venueInformation: Record<string, {
   hours: Record<WalkLocale, string>;
   fees: Record<WalkLocale, string>;
 }> = {
+  "casa-aliaga": {
+    source: "https://casadealiaga.com/en/tourist-visits/",
+    hours: { es: "Todos los días, 10:00–16:00. La casa pide contratar un guía oficial.", en: "Daily, 10:00–16:00. The house requires an independently hired official guide.", zh: "每日 10:00–16:00。宅邸要求访客自行聘请持证导游。", qu: "Sapa p’unchay 10:00–16:00. Yaykunapaq kamachisqa pusaqta maskay." },
+    fees: { es: "S/ 35 por persona. Consulta el coste del guía por separado.", en: "S/ 35 per person. Check the guide fee separately.", zh: "门票每人 35 索尔，导游费另行询问。", qu: "Sapa runa S/ 35. Pusaqpa qullqinta sapanta tapuy." },
+  },
+  "museo-bcrp": {
+    source: "https://mucen.bcrp.gob.pe/",
+    hours: { es: "Consulta el horario vigente en la agenda del Museo Central antes de ir.", en: "Check the Museo Central programme for current opening hours.", zh: "出发前通过中央博物馆的活动日历核实开放时段。", qu: "Manaraq rispa Museo Centralpa qillqanpi kichana pachata qaway." },
+    fees: { es: "Ingreso libre según el BCRP. Revisa si una actividad concreta requiere inscripción.", en: "The BCRP lists free admission. Check whether your chosen activity requires registration.", zh: "据秘鲁中央储备银行资料，博物馆免费入场。参加活动前请核对是否需报名。", qu: "BCRP nisqanman hina mana qullqiwanchu yaykunki. Ruranapaq suti qillqayta tapuy." },
+  },
   catedral: {
     source: "https://target2.promperu.gob.pe/teapuntas-lima-callao/distritos-con-historia/centro-historico-de-lima/basilica-catedral-de-lima",
     hours: { es: "Lun–vie 09:00–20:00, sáb 10:00–22:00, dom 13:00–19:00.", en: "Mon–Fri 09:00–20:00, Sat 10:00–22:00, Sun 13:00–19:00.", zh: "周一至周五 09:00–20:00，周六 10:00–22:00，周日 13:00–19:00。", qu: "Killachaw–Ch’askachaw 09:00–20:00, K’uychichaw 10:00–22:00, Intichaw 13:00–19:00." },
