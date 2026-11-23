@@ -1251,3 +1251,108 @@ body {
   .site-nav-home .site-nav-controls { flex-basis: 100%; }
   .site-nav-travel .nav-links { display: none; }
 }
+
+/* Keep the travel guide typography, cards and accent colours aligned with the home page. */
+.nearby-body:has(.attraction-layout) {
+  max-width: 73rem;
+}
+
+.attraction-layout {
+  display: grid;
+  gap: clamp(1.25rem, 3vw, 2.75rem);
+  align-items: start;
+}
+
+.attraction-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  padding: .9rem;
+}
+
+.attraction-jump a {
+  display: block;
+  padding: .4rem .65rem;
+  color: var(--color-deep);
+  font-size: .9rem;
+}
+
+.attraction-sections {
+  min-width: 0;
+}
+
+.attraction-sections > .nearby-panel {
+  padding: clamp(1.15rem, 4vw, 2.1rem);
+  margin-block-end: 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--color-stone) 22%, transparent);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--color-cream) 92%, var(--color-gold));
+  scroll-margin-top: 7rem;
+}
+
+.attraction-sections > .nearby-panel h2::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 2px;
+  margin-block: .55rem .95rem;
+  background: linear-gradient(to right, var(--color-gold), transparent);
+}
+
+.attraction-sections > .nearby-panel p + p {
+  margin-top: .8rem;
+}
+
+.attraction-sections .nearby-facts {
+  gap: 0;
+  grid-template-columns: minmax(5.75rem, 1fr) minmax(0, 2fr);
+}
+
+.attraction-sections .nearby-facts > * {
+  padding-block: .6rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-stone) 24%, transparent);
+  overflow-wrap: anywhere;
+}
+
+.attraction-sections .nearby-facts dt {
+  padding-inline-end: .75rem;
+}
+
+.attraction-sections .nearby-panel ol {
+  padding-inline-start: 1.65rem;
+}
+
+.attraction-sections .nearby-panel ol li {
+  padding: .4rem 0 .4rem .3rem;
+}
+
+.attraction-sections .nearby-panel ol li::marker {
+  color: var(--color-mountain);
+  font-weight: 700;
+}
+
+.attraction-sections .nearby-figure {
+  margin-block: 1.35rem;
+  padding: .65rem;
+  border: 1px solid color-mix(in srgb, var(--color-stone) 24%, transparent);
+  border-radius: 14px;
+}
+
+.attraction-sections .nearby-figure figcaption {
+  padding: .35rem .55rem 0;
+  color: var(--color-earth-soft);
+  font-size: .85rem;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 860px) {
+  .attraction-layout {
+    grid-template-columns: minmax(10rem, 13rem) minmax(0, 1fr);
+  }
+
+  .attraction-jump {
+    display: grid;
+    position: sticky;
+    top: 6rem;
+  }
+}

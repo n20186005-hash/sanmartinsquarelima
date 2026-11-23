@@ -66,121 +66,132 @@ export default async function NearbyPlacePage({ params }: Props) {
         <a className="hero-cta" href={links.map}>{labels.map}</a>
         <a href={links.map}>{labels.rating}</a>
       </>}>
-        <section className="nearby-panel">
-          <h2>{sections.introduction}</h2>
-          <p>{place.description[locale]}</p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{planning.tips}</h2>
-          <p>{place.visitTip[locale]}</p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{sections.highlights}</h2>
-          <p>{place.detail[locale]}</p>
-        </section>
-        <section className="info-card nearby-panel">
-          <h2>{labels.about} · {title}</h2>
-          <p><strong lang="es">{manager}</strong></p>
-          <p>{siteContext[place.kind as keyof typeof siteContext][locale]}</p>
-        </section>
-        {place.image && (
-          <figure className="nearby-figure">
-            <Image src={place.image.src} alt={title} width={1200} height={780} sizes="(max-width: 900px) 100vw, 860px" unoptimized />
-            <figcaption>
-              {place.image.author && <span>{place.image.author} · </span>}
-              {place.image.license && <span>{place.image.license} · </span>}
-              <a href={place.image.source}>{labels.image}</a>
-            </figcaption>
-          </figure>
-        )}
-        <section className="info-card nearby-panel">
-          <h2>{labels.info}</h2>
-          <dl className="nearby-facts" aria-label={extra.overview}>
-            <dt>{sections.name}</dt><dd lang="es">{place.name}</dd>
-            <dt>{sections.kind}</dt><dd>{kind}</dd>
-            <dt>{labels.address}</dt><dd lang="es">{place.address}, Lima, Perú</dd>
-            <dt>{sections.manager}</dt><dd lang="es">{manager}</dd>
-            <dt>{labels.hours}</dt><dd>{hours}</dd>
-            <dt>{labels.fees}</dt><dd>{fees}</dd>
-            <dt>{labels.transport}</dt><dd lang="es">Metropolitano · {station}</dd>
-            <dt>{labels.duration}</dt><dd>{time}</dd>
-          </dl>
-        </section>
-        <section className="nearby-panel">
-          <h2>{labels.hours}</h2>
-          <p>{hours}</p>
-          <a href={venue?.source ?? siteSource}>{sections.sources}</a>
-        </section>
-        <section className="nearby-panel">
-          <h2>{labels.fees}</h2>
-          <p>{fees}</p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{labels.transport}</h2>
-          <p>{transit.station} <strong lang="es">{station}</strong>. {transit.verify}</p>
-          <p>{planning.access}</p>
-          <a href={links.transit}>{transit.map}</a>
-        </section>
-        <section className="nearby-panel">
-          <h2>{extra.history}</h2>
-          <p>{place.heritageNote[locale]}</p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{sections.route}</h2>
-          <ol>
-            <li>{labels.starting}</li>
-            <li><a href={links.walk}>{labels.directions}</a> <span lang="es">· {place.address}</span></li>
-            <li>{place.detail[locale]}</li>
-            {next && <li>{labels.nearbyStop} <Link href={`/${locale}${nearbyPath(next.slug)}`}>{next.titles[locale]}</Link>.</li>}
-          </ol>
-        </section>
-        <section className="nearby-panel">
-          <h2>{sections.rules}</h2>
-          <p>{guideRules[locale]}</p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{labels.photo}</h2>
-          <p>{place.photo[locale]}</p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{labels.faq}</h2>
-          <details><summary>{labels.question}</summary><p>{hours} <a href={venue?.source ?? siteSource}>{venue ? managers[place.manager as keyof typeof managers] : labels.source}</a></p></details>
-        </section>
-        <section className="nearby-panel">
-          <h2>{planning.lodging}</h2>
-          <p>{planning.stay}</p>
-          {lodging && <p>{lodging}</p>}
-        </section>
-        <section className="nearby-panel">
-          <h2>{labels.reviews}</h2>
-          <p>{extra.reviews}</p>
-          <p><a href={links.map}>{labels.rating}</a></p>
-        </section>
-        <section className="nearby-panel">
-          <h2>{sections.directions}</h2>
-          <p lang="es">{place.address}, Lima, Perú</p>
-          <div className="nearby-actions">
-            <a href={links.map}>{labels.map}</a>
-            <a href={links.walk}>{extra.map}</a>
+        <div className="attraction-layout">
+          <nav className="attraction-jump info-card" aria-label={extra.overview}>
+            <a href="#overview">{sections.introduction}</a>
+            <a href="#facts">{labels.info}</a>
+            <a href="#route">{sections.route}</a>
+            <a href="#photos">{labels.photo}</a>
+            <a href="#directions">{sections.directions}</a>
+          </nav>
+          <div className="attraction-sections">
+            <section className="nearby-panel" id="overview">
+              <h2>{sections.introduction}</h2>
+              <p>{place.description[locale]}</p>
+            </section>
+            <section className="nearby-panel">
+              <h2>{planning.tips}</h2>
+              <p>{place.visitTip[locale]}</p>
+            </section>
+            <section className="nearby-panel">
+              <h2>{sections.highlights}</h2>
+              <p>{place.detail[locale]}</p>
+            </section>
+            <section className="info-card nearby-panel">
+              <h2>{labels.about} · {title}</h2>
+              <p><strong lang="es">{manager}</strong></p>
+              <p>{siteContext[place.kind as keyof typeof siteContext][locale]}</p>
+            </section>
+            {place.image && (
+              <figure className="nearby-figure">
+                <Image src={place.image.src} alt={title} width={1200} height={780} sizes="(max-width: 900px) 100vw, 860px" unoptimized />
+                <figcaption>
+                  {place.image.author && <span>{place.image.author} · </span>}
+                  {place.image.license && <span>{place.image.license} · </span>}
+                  <a href={place.image.source}>{labels.image}</a>
+                </figcaption>
+              </figure>
+            )}
+            <section className="info-card nearby-panel" id="facts">
+              <h2>{labels.info}</h2>
+              <dl className="nearby-facts" aria-label={extra.overview}>
+                <dt>{sections.name}</dt><dd lang="es">{place.name}</dd>
+                <dt>{sections.kind}</dt><dd>{kind}</dd>
+                <dt>{labels.address}</dt><dd lang="es">{place.address}, Lima, Perú</dd>
+                <dt>{sections.manager}</dt><dd lang="es">{manager}</dd>
+                <dt>{labels.hours}</dt><dd>{hours}</dd>
+                <dt>{labels.fees}</dt><dd>{fees}</dd>
+                <dt>{labels.transport}</dt><dd lang="es">Metropolitano · {station}</dd>
+                <dt>{labels.duration}</dt><dd>{time}</dd>
+              </dl>
+            </section>
+            <section className="nearby-panel">
+              <h2>{labels.hours}</h2>
+              <p>{hours}</p>
+              <a href={venue?.source ?? siteSource}>{sections.sources}</a>
+            </section>
+            <section className="nearby-panel">
+              <h2>{labels.fees}</h2>
+              <p>{fees}</p>
+            </section>
+            <section className="nearby-panel">
+              <h2>{labels.transport}</h2>
+              <p>{transit.station} <strong lang="es">{station}</strong>. {transit.verify}</p>
+              <p>{planning.access}</p>
+              <a href={links.transit}>{transit.map}</a>
+            </section>
+            <section className="nearby-panel">
+              <h2>{extra.history}</h2>
+              <p>{place.heritageNote[locale]}</p>
+            </section>
+            <section className="nearby-panel" id="route">
+              <h2>{sections.route}</h2>
+              <ol>
+                <li>{labels.starting}</li>
+                <li><a href={links.walk}>{labels.directions}</a> <span lang="es">· {place.address}</span></li>
+                <li>{place.detail[locale]}</li>
+                {next && <li>{labels.nearbyStop} <Link href={`/${locale}${nearbyPath(next.slug)}`}>{next.titles[locale]}</Link>.</li>}
+              </ol>
+            </section>
+            <section className="nearby-panel">
+              <h2>{sections.rules}</h2>
+              <p>{guideRules[locale]}</p>
+            </section>
+            <section className="nearby-panel" id="photos">
+              <h2>{labels.photo}</h2>
+              <p>{place.photo[locale]}</p>
+            </section>
+            <section className="nearby-panel">
+              <h2>{labels.faq}</h2>
+              <details><summary>{labels.question}</summary><p>{hours} <a href={venue?.source ?? siteSource}>{venue ? managers[place.manager as keyof typeof managers] : labels.source}</a></p></details>
+            </section>
+            <section className="nearby-panel">
+              <h2>{planning.lodging}</h2>
+              <p>{planning.stay}</p>
+              {lodging && <p>{lodging}</p>}
+            </section>
+            <section className="nearby-panel">
+              <h2>{labels.reviews}</h2>
+              <p>{extra.reviews}</p>
+              <p><a href={links.map}>{labels.rating}</a></p>
+            </section>
+            <section className="nearby-panel" id="directions">
+              <h2>{sections.directions}</h2>
+              <p lang="es">{place.address}, Lima, Perú</p>
+              <div className="nearby-actions">
+                <a href={links.map}>{labels.map}</a>
+                <a href={links.walk}>{extra.map}</a>
+              </div>
+            </section>
+            {related.length > 0 && (
+              <section className="nearby-panel nearby-index">
+                <h2>{extra.browse}</h2>
+                <ul className="nearby-grid">{related.map((entry) => (
+                  <li key={entry.slug}>
+                    <Link className="info-card" href={`/${locale}${nearbyPath(entry.slug)}`}>
+                      {entry.titles[locale]}
+                    </Link>
+                  </li>
+                ))}</ul>
+              </section>
+            )}
+            <nav className="nearby-bottom">
+              <Link href={`/${locale}/guide`}>{extra.browse}</Link>
+              <Link href={`/${locale}#nearby`}>{labels.nearby}</Link>
+              <Link href={`/${locale}${walkPath}`}>{labels.walk}</Link>
+            </nav>
           </div>
-        </section>
-        {related.length > 0 && (
-          <section className="nearby-panel nearby-index">
-            <h2>{extra.browse}</h2>
-            <ul className="nearby-grid">{related.map((entry) => (
-              <li key={entry.slug}>
-                <Link className="info-card" href={`/${locale}${nearbyPath(entry.slug)}`}>
-                  {entry.titles[locale]}
-                </Link>
-              </li>
-            ))}</ul>
-          </section>
-        )}
-        <nav className="nearby-bottom">
-          <Link href={`/${locale}/guide`}>{extra.browse}</Link>
-          <Link href={`/${locale}#nearby`}>{labels.nearby}</Link>
-          <Link href={`/${locale}${walkPath}`}>{labels.walk}</Link>
-        </nav>
+        </div>
     </TravelPage>
   );
 }
